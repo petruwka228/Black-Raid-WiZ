@@ -1,0 +1,164 @@
+﻿[Name]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Название территории		  ;;
+;; Используется в окне территории ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+zona0=Неизвестно
+Zona1=Неизвестно
+Zona2=Неизвестно
+Zona3=Неизвестно
+Zona4=Неизвестно
+Zona5=Неизвестно
+Zona6=Неизвестно
+Zona7=Неизвестно
+Zona8=Неизвестно
+Zona9=Неизвестно
+Zona10=Неизвестно
+Zona11=Неизвестно
+Zona12=Неизвестно
+Zona13=Неизвестно
+zona14=Неизвестно
+Zona15=Неизвестно
+Zona16=Неизвестно
+Zona17=Неизвестно
+Zona18=Неизвестно
+Zona19=Неизвестно
+Zona20=Неизвестно
+Zona21=Неизвестно
+Zona22=Неизвестно
+Zona23=Неизвестно
+Zona24=Неизвестно
+Zona25=Неизвестно
+zona26=Неизвестно
+Zona27=Неизвестно
+Zona28=Неизвестно
+zona29=Неизвестно
+Zona30=Неизвестно
+Zona31=Неизвестно
+Zona32=Неизвестно
+Zona33=Неизвестно
+Zona34=Неизвестно
+Zona35=Неизвестно
+Zona36=Неизвестно
+Zona37=Неизвестно
+Zona38=Неизвестно
+Zona39=Неизвестно
+Zona40=Неизвестно
+zona41=Неизвестно
+Zona42=Неизвестно
+Zona43=Неизвестно
+zona44=Неизвестно
+Zona45=Неизвестно
+Zona46=Неизвестно
+Zona47=Неизвестно
+Zona48=Неизвестно
+
+[Location]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; К какой локации принадлежит территория.			     ;;
+;; Используется только в качестве доп информации в окне О территории ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+zona0=Окрестности Юпитера
+Zona1=Окрестности Юпитера
+Zona2=Окрестности Юпитера
+Zona3=Окрестности Юпитера
+Zona4=Окрестности Юпитера
+Zona5=Окрестности Юпитера
+Zona6=Окрестности Юпитера
+Zona7=Окрестности Юпитера
+Zona8=Окрестности Юпитера
+Zona9=Окрестности Юпитера
+Zona10=Окрестности Юпитера
+Zona11=Окрестности Юпитера
+Zona12=Окрестности Юпитера
+Zona13=Окрестности Юпитера
+zona14=Окрестности Юпитера
+Zona15=Окрестности Юпитера
+Zona16=Окрестности Юпитера
+Zona17=Окрестности Юпитера
+Zona18=Окрестности Юпитера
+Zona19=Окрестности Юпитера
+Zona20=Окрестности Юпитера
+Zona21=Окрестности Юпитера
+Zona22=Окрестности Юпитера
+Zona23=Окрестности Юпитера
+Zona24=Окрестности Юпитера
+Zona25=Окрестности Юпитера
+zona26=Окрестности Юпитера
+Zona27=Окрестности Юпитера
+Zona28=Окрестности Юпитера
+zona29=Окрестности Юпитера
+Zona30=Окрестности Юпитера
+Zona31=Окрестности Юпитера
+Zona32=Окрестности Юпитера
+Zona33=Окрестности Юпитера
+Zona34=Окрестности Юпитера
+Zona35=Окрестности Юпитера
+Zona36=Окрестности Юпитера
+Zona37=Окрестности Юпитера
+Zona38=Окрестности Юпитера
+Zona39=Окрестности Юпитера
+Zona40=Окрестности Юпитера
+zona41=Окрестности Юпитера
+Zona42=Окрестности Юпитера
+Zona43=Окрестности Юпитера
+zona44=Окрестности Юпитера
+Zona45=Окрестности Юпитера
+Zona46=Окрестности Юпитера
+Zona47=Окрестности Юпитера
+Zona48=Окрестности Юпитера
+
+[Image]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; У каждой территории должна быть иконка, не обязательно уникальная ;;
+;; Тут прописан путь к файлу                                         ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Zona1=gfx\icons\territories\CoP\Yupiter\1.png
+Zona2=gfx\icons\territories\CoP\Yupiter\2.png
+Zona3=gfx\icons\territories\CoP\Yupiter\3.png
+Zona4=gfx\icons\territories\CoP\Yupiter\4.png
+Zona5=gfx\icons\territories\CoP\Yupiter\5.png
+Zona6=gfx\icons\territories\CoP\Yupiter\6.png
+Zona7=gfx\icons\territories\CoP\Yupiter\7.png
+Zona8=gfx\icons\territories\CoP\Yupiter\8.png
+Zona9=gfx\icons\territories\CoP\Yupiter\9.png
+Zona10=gfx\icons\territories\CoP\Yupiter\10.png
+Zona11=gfx\icons\territories\CoP\Yupiter\11.png
+Zona12=gfx\icons\territories\CoP\Yupiter\12.png
+Zona13=gfx\icons\territories\CoP\Yupiter\13.png
+Zona14=gfx\icons\territories\CoP\Yupiter\14.png
+Zona15=gfx\icons\territories\CoP\Yupiter\15.png
+Zona16=gfx\icons\territories\CoP\Yupiter\16.png
+Zona17=gfx\icons\territories\CoP\Yupiter\17.png
+Zona18=gfx\icons\territories\CoP\Yupiter\18.png
+Zona19=gfx\icons\territories\CoP\Yupiter\19.png
+Zona20=gfx\icons\territories\CoP\Yupiter\20.png
+Zona21=gfx\icons\territories\CoP\Yupiter\21.png
+Zona22=gfx\icons\territories\CoP\Yupiter\22.png
+Zona23=gfx\icons\territories\CoP\Yupiter\23.png
+Zona24=gfx\icons\territories\CoP\Yupiter\24.png
+Zona25=gfx\icons\territories\CoP\Yupiter\25.png
+Zona26=gfx\icons\territories\CoP\Yupiter\26.png
+Zona27=gfx\icons\territories\CoP\Yupiter\27.png
+Zona28=gfx\icons\territories\CoP\Yupiter\28.png
+Zona29=gfx\icons\territories\CoP\Yupiter\29.png
+Zona30=gfx\icons\territories\CoP\Yupiter\30.png
+Zona31=gfx\icons\territories\CoP\Yupiter\31.png
+Zona32=gfx\icons\territories\CoP\Yupiter\32.png
+Zona33=gfx\icons\territories\CoP\Yupiter\33.png
+Zona34=gfx\icons\territories\CoP\Yupiter\34.png
+Zona35=gfx\icons\territories\CoP\Yupiter\35.png
+Zona36=gfx\icons\territories\CoP\Yupiter\36.png
+Zona37=gfx\icons\territories\CoP\Yupiter\37.png
+Zona38=gfx\icons\territories\CoP\Yupiter\38.png
+Zona39=gfx\icons\territories\CoP\Yupiter\39.png
+Zona40=gfx\icons\territories\CoP\Yupiter\40.png
+Zona41=gfx\icons\territories\CoP\Yupiter\41.png
+Zona42=gfx\icons\territories\CoP\Yupiter\42.png
+Zona43=gfx\icons\territories\CoP\Yupiter\43.png
+Zona44=gfx\icons\territories\CoP\Yupiter\44.png
+Zona45=gfx\icons\territories\CoP\Yupiter\45.png
+Zona46=gfx\icons\territories\CoP\Yupiter\46.png
+Zona47=gfx\icons\territories\CoP\Yupiter\47.png
+Zona48=gfx\icons\territories\CoP\Yupiter\48.png
+
