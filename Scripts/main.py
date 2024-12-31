@@ -10,7 +10,7 @@ def create_event_file():
             f.write('Step=1\n')
             f.write('Zona=1\n')
             f.write('Type=Info\n')
-            f.write('Img=gfx\\icons\\story_SHOC\\0.png\n')
+            f.write('Img=gfx\\icons\\events\\start.png\n')
             f.write('TargetResourceImg=gfx\\old\\NoData_100x100.png\n')
             f.write('Name=Информация\n')
             f.write(
@@ -69,4 +69,4 @@ button.pack()
 
 # Запуск приложения
 root.mainloop()
-#pyinstaller --onefile --windowed C:\Users\artem\AppData\Roaming\JetBrains\PyCharmCE2024.2\scratches\WiZ\main.py
+#pyinstaller --onefile --windowed C:\github\Black-Raid-WiZ\Scripts\main.py
