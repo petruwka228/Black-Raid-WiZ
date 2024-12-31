@@ -14,9 +14,9 @@ def create_event_file():
             f.write('TargetResourceImg=gfx\\old\\NoData_100x100.png\n')
             f.write('Name=Информация\n')
             f.write(
-                'Desc-Owner=Добро пожаловать в ад, ребята. Каждые 5 ходов на карте появляется аирдроп. на 25 ходу будет известна точка эвакуации. Работаем быстро и слажено. Кто накосячит - останется на острове\n')
+                'Desc-Owner=Добро пожаловать в ад, ребята. Каждые 5 ходов на карте появляется аирдроп. на 25 ходу будет известна точка эвакуации. Работаем быстро и четко. Кто накосячит - останется на острове\n')
             f.write(
-                'Desc-NonOwner=Добро пожаловать в ад, ребята. Каждые 5 ходов на карте появляется аирдроп. на 25 ходу будет известна точка эвакуации. Работаем быстро и слажено. Кто накосячит - останется на острове\n')
+                'Desc-NonOwner=Добро пожаловать в ад, ребята. Каждые 5 ходов на карте появляется аирдроп. на 25 ходу будет известна точка эвакуации. Работаем быстро и четко. Кто накосячит - останется на острове\n')
             f.write('ShowForOwner=True\n')
             f.write('ShowForNonOwner=True\n')
             f.write('AddToGameLog=True\n')
@@ -69,4 +69,4 @@ button.pack()
 
 # Запуск приложения
 root.mainloop()
-#pyinstaller --onefile --windowed C:\github\Black-Raid-WiZ\Scripts\main.py
+#pyinstaller --onefile --windowed C:\Users\artem\AppData\Roaming\JetBrains\PyCharmCE2024.2\scratches\WiZ\main.py
