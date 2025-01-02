@@ -111,7 +111,7 @@ Coef=
 for i in range(12):
     f.write(f"""[Trader{i+1}]
 Name= Торговец
-Img=gfx\icons\\traders\\viv.png
+Img=gfx\icons\\traders\\{random.choice(viv)}.png
 Need= {a[i]}
 Cost = 0
 Chance = 100

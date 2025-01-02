@@ -30,7 +30,7 @@ goods_armor_icon = ['ao-1', 'ao-2-old', 'ao-2', 'aurora-b', 'aurora-m', 'aurora'
                     'disguise', 'dogman', 'gas-mask-b', 'ip', 'jacket-b', 'jacket-m', 'jacket-mm', 'jacket-mm2',
                     'jacket', 'key', 'kim-99-old', 'kim-99', 'kleptoman-old', 'kleptoman', 'kojak-b', 'kz-1',
                     'kz-2', 'mole-b', 'mole', 'mushroom-old', 'mushroom', 'ozk', 'rain', 'raincoat-b', 'raincoat-m',
-                    'raincoat', 'scout', 'slide', 'stryker', 'suit-b', 'trapper-old', 'trapper', 'worm', 'thon File',
+                    'raincoat', 'scout', 'slide', 'stryker', 'suit-b', 'trapper-old', 'trapper', 'worm',
                     'altyn', 'ao-3-old', 'ao-3', 'bc-m', 'bully-old', 'falcon-old', 'falcon', 'hoplite-old', 'hoplite',
                     'kim-100', 'kim-102', 'kim-105', 'kim-113', 'kim-116', 'kim-85d', 'kim-99m-old', 'kim-99m', 'kz-3a',
                     'lint-old', 'lint', 'lynx', 'mockingbird-old', 'mockingbird', 'sunrise-old']
@@ -77,7 +77,7 @@ goods_airdrop_icon = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-971', 'AH-94M', 'AK-
                       'albatross-stormtrooper', 'antares', 'ao-6-old', 'ao-6', 'apostle', 'avant-garde', 'beast-old',
                       'beast', 'bolt', 'centurion-old', 'centurion', 'chief', 'granite', 'hector', 'hound',
                       'jd-zivcas-2a', 'kim-x', 'kz-4', 'mule-old', 'mule', 'peresvet', 'punisher', 'reitar',
-                      'saturn-old', 'saturn', 'sba-tank', 'skif-4', 'skif-4b', 'skif-5', 'zivcas', 'thon File',
+                      'saturn-old', 'saturn', 'sba-tank', 'skif-4', 'skif-4b', 'skif-5', 'zivcas',
                       'aborigine', 'albatross-laz', 'albatross-scout', 'altyn-t', 'ao-4-old', 'ao-4', 'ao-5', 'armai',
                       'bear', 'bully', 'centurion-vold', 'expedition', 'ghost-hunter', 'grenadier', 'huntsman',
                       'kim-122', 'kz-3b', 'legionnaire-old', 'legionnaire', 'magnet', 'misty-hunter', 'osh-old', 'osh',
@@ -234,5 +234,5 @@ goods = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-919K', 'AEK-971', 'AH-94', 'AH-94
          'V-saturn-vold', 'V-skif-2m-old', 'V-skif-2m', 'V-skif-4-old', 'V-skif-4-vold', 'V-skif-4b-old', 'V-snowstorm',
          'V-spanner', 'V-suit-old', 'V-suit', 'V-sunrise', 'V-tonga', 'V-uran-old', 'V-uran', 'V-yorsh']
 
-
+viv = ['viv_boral', 'viv_forest', 'viv_humans', 'viv_night', 'viv_pizdec', 'viv_pizdec2', 'viv_under']
 
