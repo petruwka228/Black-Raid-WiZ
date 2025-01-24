@@ -236,3 +236,4 @@ goods = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-919K', 'AEK-971', 'AH-94', 'AH-94
 
 viv = ['viv_boral', 'viv_forest', 'viv_humans', 'viv_night', 'viv_pizdec', 'viv_pizdec2', 'viv_under']
 
+print(len(goods_armor_ID), len(goods_armor_icon))
