@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
+import time
 
 
 # Функция для создания INI файла
@@ -39,6 +40,8 @@ def import_modules():
         import zombie_addunits
         import Zombie_Invasion
         import Shopot_AddResources
+        import camp
+        time.sleep(1)
         import EndVictory
         import territories
         import traders_good

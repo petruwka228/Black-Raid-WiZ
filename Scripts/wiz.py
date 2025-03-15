@@ -5,6 +5,7 @@ for j in zones: # менять значения сначала zones_a, пото
     fl = random.randint(1,2)
     if fl == 1:
         c = random.randint(0, len(goods_armor_name)-1)
+        d = random.randint(1, 5)
         for i in range(1, 30):
             f.write(f'[Event-AddResources-{j}-{i}-0]\n')  # ---
             f.write(f'Step={i}\n')
@@ -24,7 +25,7 @@ for j in zones: # менять значения сначала zones_a, пото
             f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
             f.write('SoundFXForNonOwner=True\n')
             f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
-            f.write('NotWorkFractions=Mutants,Airdrop,Shopot\n')
+            f.write('NotWorkFractions=Mutants,Airdrop,Shopot,Zombie\n')
             f.write(f'EventFlag=Flag-{j}-0\n')  # ----
             f.write(f'EventFlagResult=Flag-{j}-0\n')  # ----
             f.write('EventFlagStatusNeed=False\n')
@@ -43,12 +44,12 @@ for j in zones: # менять значения сначала zones_a, пото
             f.write('ShowForNonOwner=False\n')
             f.write('AddToGameLog=False\n')
             f.write('NameResources=Medic\n')  # -----
-            f.write(f'CountResources={goods_medic_a[c]}\n')  # ----
+            f.write(f'CountResources={d}\n')  # ----
             f.write('SoundFXForOwner=True\n')
             f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
             f.write('SoundFXForNonOwner=True\n')
             f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
-            f.write('NotWorkFractions=Mutants,Airdrop,Shopot\n')
+            f.write('NotWorkFractions=Mutants,Airdrop,Shopot,Zombie\n')
             f.write(f'EventFlag=Flag-{j}-1\n')  # ----
             f.write(f'EventFlagResult=Flag-{j}-1\n')  # -----
             f.write('EventFlagStatusNeed=False\n')
@@ -75,7 +76,7 @@ for j in zones: # менять значения сначала zones_a, пото
             f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
             f.write('SoundFXForNonOwner=True\n')
             f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
-            f.write('NotWorkFractions=Mutants,Airdrop,Shopot\n')
+            f.write('NotWorkFractions=Mutants,Airdrop,Shopot,Zombie\n')
             f.write(f'EventFlag=Flag-{j}-0\n')  # ----
             f.write(f'EventFlagResult=Flag-{j}-0\n')  # ----
             f.write('EventFlagStatusNeed=False\n')

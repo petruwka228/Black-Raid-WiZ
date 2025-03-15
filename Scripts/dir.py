@@ -17,6 +17,7 @@ goods_armor_name = ['Костюм АО-1 «Бродяга»', 'Поношенн�
                     'КИМ-99М «Малахит»', 'Бронекостюм «КЗ-3а»', 'Поношенный защитный костюм «Ворса»',
                     'Защитный костюм «Ворса»', 'Бронекостюм «Рысь»', 'Поношенный бронекостюм «Пересмешник»',
                     'Бронекостюм «Пересмешник»', 'Поношенный тяжелый бронекостюм «Восход»']
+
 goods_weapon_name = ['АЕК-919К «Каштан»', 'АН-94 «Абакан»', 'АК-105', 'АК-74М', 'АКС-74', 'АКС-74У', 'АКС чистильщика',
                      'АКМ', 'АПС', 'Винтовка Мосина', 'БМ-16', 'Browning Hi-Power', 'СВТ-40', 'СКС-Т', 'СКС', 'СКТ-40',
                      'Cobray Terminator', 'СОК-94', '«Цунами»', 'ДП', 'FN SCAR-L', 'Форт-12', 'Franchi SPAS-12',
@@ -26,6 +27,7 @@ goods_weapon_name = ['АЕК-919К «Каштан»', 'АН-94 «Абакан»'
                      'Обрез БМ-16', 'Р-92','ПБ', 'ПММ', 'ПП-2000', 'ПП-91 «Кедр»', 'ППШ', 'Shorty 590',
                      'Поношенный SIG SG 550','Spectre M4', 'Steyr Scout', 'ТОЗ-34', 'ТТ', 'Vz.68 Scorpion',
                      'Walther MPK', 'Walther P99','Поношенный Winchester M70', 'Winchester M70']
+
 goods_armor_icon = ['ao-1', 'ao-2-old', 'ao-2', 'aurora-b', 'aurora-m', 'aurora', 'balloon-b', 'bc', 'coat', 'currant',
                     'disguise', 'dogman', 'gas-mask-b', 'ip', 'jacket-b', 'jacket-m', 'jacket-mm', 'jacket-mm2',
                     'jacket', 'key', 'kim-99-old', 'kim-99', 'kleptoman-old', 'kleptoman', 'kojak-b', 'kz-1',
@@ -34,6 +36,7 @@ goods_armor_icon = ['ao-1', 'ao-2-old', 'ao-2', 'aurora-b', 'aurora-m', 'aurora'
                     'altyn', 'ao-3-old', 'ao-3', 'bc-m', 'bully-old', 'falcon-old', 'falcon', 'hoplite-old', 'hoplite',
                     'kim-100', 'kim-102', 'kim-105', 'kim-113', 'kim-116', 'kim-85d', 'kim-99m-old', 'kim-99m', 'kz-3a',
                     'lint-old', 'lint', 'lynx', 'mockingbird-old', 'mockingbird', 'sunrise-old']
+
 goods_armor_ID = ['N-ao-1', 'N-ao-2-old', 'N-ao-2', 'N-aurora-b', 'N-aurora-m', 'N-aurora', 'N-balloon-b', 'N-bc',
                   'N-coat', 'N-currant', 'N-disguise', 'N-dogman', 'N-gas-mask-b', 'N-ip', 'N-jacket-b', 'N-jacket-m',
                   'N-jacket-mm', 'N-jacket-mm2', 'N-jacket', 'N-key', 'N-kim-99-old', 'N-kim-99', 'N-kleptoman-old',
@@ -44,6 +47,7 @@ goods_armor_ID = ['N-ao-1', 'N-ao-2-old', 'N-ao-2', 'N-aurora-b', 'N-aurora-m', 
                   'S-hoplite', 'S-kim-100', 'S-kim-102', 'S-kim-105', 'S-kim-113', 'S-kim-116', 'S-kim-85d',
                   'S-kim-99m-old', 'S-kim-99m', 'S-kz-3a', 'S-lint-old', 'S-lint', 'S-lynx', 'S-mockingbird-old',
                   'S-mockingbird', 'S-sunrise-old']
+
 goods_weapon_ID = ['AEK-919K', 'AH-94', 'AK-105', 'AK-74M', 'AKC-74', 'AKC-74Y', 'AKC', 'AKM', 'APS', 'Bintovka',
                    'BM-16', 'Browning', 'CBT-40', 'CKC-T', 'CKC', 'CKT-40', 'Cobray', 'COK-94', 'Cunami', 'DP', 'FN',
                    'Fort-12', 'Franchi', 'Gepard', 'HK', 'HK_1', 'IMI', 'IMI_1', 'IMI_2', 'Ingram', 'Karabin', 'Kbk',
@@ -51,13 +55,7 @@ goods_weapon_ID = ['AEK-919K', 'AH-94', 'AK-105', 'AK-74M', 'AKC-74', 'AKC-74Y',
                    'MP-153', 'Obrez', 'P-92', 'PB', 'PMM', 'PP-2000', 'PP-91', 'PPS', 'Shorty',
                    'SIG', 'Spectre', 'Steyr', 'TO3-34', 'TT', 'vz68', 'walther', 'Walther_1', 'Winchester',
                    'Winchester_1']
-goods_medic_a = [1 for i in range(44)]
-for i in range(24):
-    goods_medic_a.append(2)
-goods_supplies_a = [900, 700, 700, 650, 600, 700, 600, 600, 750, 40, 240, 400, 200, 300, 300, 200, 150, 360, 1000, 550,
-                    630, 400, 120, 650, 900, 650, 600, 1100, 950, 900, 40, 700, 650, 120, 550, 550, 800, 750, 40, 390,
-                    70, 60, 110, 240, 150, 400, 400, 400, 800, 800, 1000, 70, 680, 840, 80, 240, 300, 840, 570, 430, 40,
-                    40]
+
 zones = [i for i in range(1, 120)]
 zones_airdrop = [20, 34, 38, 41, 51, 56, 61, 63, 70, 74]
 goods_airdrop_icon = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK-15', 'AK-203',
@@ -65,7 +63,7 @@ goods_airdrop_icon = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-971', 'AH-94M', 'AK-
                       'BCK-94', 'Beretta', 'Beretta_1', 'Beretta_2', 'Caiga-12K', 'CB-98', 'CBD-C', 'CBD-M', 'CBD',
                       'CBY', 'Chiappa', 'Cobra', 'Colt', 'Colt_1', 'CP-1-10', 'CP-1', 'CP-2M', 'CP-3', 'CP-380',
                       'CP-3M', 'Crye', 'Desert', 'Desert_1', 'DSA-58', 'FAMAZ', 'FG-42', 'FN_1', 'FN_2', 'FN_3', 'FN_4',
-                      'FN_5', 'FN_6', 'Glock', 'Glock_1', 'Glock_2', 'Grizzly', 'HK416', 'HK417', 'HK_10', 'HK_2',
+                      'FN_5', 'FN_6', 'Glock', 'Glock_1', 'Glock_2', 'Grizzly', 'HK416', 'HK417', 'FN_7', 'HK_2',
                       'HK_3', 'HK_4', 'HK_5', 'HK_6', 'HK_7', 'HK_8', 'HK_9', 'Hladomet', 'Hladorez', 'IWI', 'L85A1_1',
                       'L86A1_1', 'L96A1', 'LR-300', 'Lyaguha', 'M1014_1', 'M1A', 'M1A_1', 'M249', 'M4', 'M40A5',
                       'M40A5_1', 'M4A1_1', 'MC-116M', 'MC-255', 'MC-558', 'McMillan', 'MG', 'Mk', 'MP-412', 'OC-14',
@@ -84,6 +82,7 @@ goods_airdrop_icon = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-971', 'AH-94M', 'AK-
                       'ploughman-old', 'ploughman', 'ratcatcher', 'reaper-old', 'reaper', 'reporter', 'samson-old',
                       'samson', 'saturn-vold', 'skif-2m-old', 'skif-2m', 'skif-4-old', 'skif-4-vold', 'skif-4b-old',
                       'snowstorm', 'spanner', 'suit-old', 'suit', 'sunrise', 'tonga', 'uran-old', 'uran', 'yorsh']
+
 goods_airdrop_name = ['9А-91', 'А-545', 'AA-12', 'АС «Вал»', 'АЕК-971', 'АН-94М «Абакан»', 'АК-103', 'АК-12', 'АК-15',
                       'АК-203', 'АК-308', 'АКМ «Тишина»', 'АЛК-22 «Стрекоза»', 'Alpine TPG-1', 'АМ-17', 'АМБ-17',
                       'АШ-12', 'ВСС-М «Винторез»', 'ВСС «Винторез»', 'ВССК «Выхлоп»', 'ВСК-94', 'Beretta 92FS',
@@ -129,6 +128,7 @@ goods_airdrop_name = ['9А-91', 'А-545', 'AA-12', 'АС «Вал»', 'АЕК-97
                       'Тяжелый бронекостюм «Идущий в метели»', 'УКАЗ «Спаннер»', 'Поношенная «Масть»',
                       'Экзоскелет «Масть»', 'Tяжелый бронекостюм «Восход»', 'Комбинезон «Тонга»',
                       'Поношенный комбинезон «Уран»', 'Комбинезон «Уран»', 'Защитный бронекостюм «Йорш»']
+
 goods_airdrop_ID = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK-15', 'AK-203',
                     'AK-308', 'AKM_1', 'ALK-22', 'Alpine', 'AM-17', 'AMB-17', 'AS-12', 'BCC-M', 'BCC', 'BCCK', 'BCK-94',
                     'Beretta', 'Beretta_1', 'Beretta_2', 'Caiga-12K', 'CB-98', 'CBD-C', 'CBD-M', 'CBD', 'CBY',
@@ -154,8 +154,10 @@ goods_airdrop_ID = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-971', 'AH-94M', 'AK-10
                     'V-samson-old', 'V-samson', 'V-saturn-vold', 'V-skif-2m-old', 'V-skif-2m', 'V-skif-4-old',
                     'V-skif-4-vold', 'V-skif-4b-old', 'V-snowstorm', 'V-spanner', 'V-suit-old', 'V-suit', 'V-sunrise',
                     'V-tonga', 'V-uran-old', 'V-uran', 'V-yorsh']
+
 groups = ['Stalkers', 'Bandits', 'Soldiers', 'Duty', 'Freedom', 'Mercenaries', 'Monolith', 'Scientists', 'Shopot',
           'Clearsky']
+
 zones_traders = [3, 4, 11, 16, 22, 24, 26, 28, 29, 35, 37, 42, 45, 54, 56, 65, 83, 87, 88, 98, 101, 110]
 goods_novice = ['AK-74M', 'AKC-74', 'AKC-74Y', 'AKC', 'Bintovka', 'BM-16', 'CKC', 'CKT-40', 'DP', 'Gepard', 'IMI',
                 'Karabin', 'M16A1', 'M16A2', 'M16A3', 'Mauser', 'Mossberg', 'MP-133', 'Obrez', 'P-92', 'PB',
@@ -166,6 +168,7 @@ goods_novice = ['AK-74M', 'AKC-74', 'AKC-74Y', 'AKC', 'Bintovka', 'BM-16', 'CKC'
                 'N-kz-1', 'N-kz-2', 'N-mole-b', 'N-mole', 'N-mushroom-old', 'N-mushroom', 'N-ozk',
                 'N-rain', 'N-raincoat-b', 'N-raincoat-m', 'N-raincoat', 'N-scout', 'N-slide', 'N-stryker', 'N-suit-b',
                 'N-trapper-old', 'N-trapper', 'N-worm']
+
 goods_skilled = ['AEK-919K', 'AH-94', 'AK-105', 'AKM', 'APS', 'Browning', 'CBT-40', 'CKC-T', 'Cobray', 'COK-94',
                  'Cunami', 'FN', 'Fort-12', 'Franchi', 'HK', 'HK_1', 'IMI_1', 'IMI_2', 'Ingram', 'Kbk', 'L85A1', 'L86A1',
                  'M1014', 'M4A1', 'Mauser_1', 'MP-153', 'PMM', 'PP-2000', 'PPS', 'SIG', 'Spectre', 'Steyr', 'Walther_1',
@@ -173,6 +176,15 @@ goods_skilled = ['AEK-919K', 'AH-94', 'AK-105', 'AKM', 'APS', 'Browning', 'CBT-4
                  'S-hoplite-old', 'S-hoplite', 'S-kim-100', 'S-kim-102', 'S-kim-105', 'S-kim-113', 'S-kim-116',
                  'S-kim-85d', 'S-kim-99m-old', 'S-kim-99m', 'S-kz-3a', 'S-lint-old', 'S-lint', 'S-lynx',
                  'S-mockingbird-old', 'S-mockingbird', 'S-sunrise-old']
+
+goods_skilled_icon = ['AEK-919K', 'AH-94', 'AK-105', 'AKM', 'APS', 'Browning', 'CBT-40', 'CKC-T', 'Cobray', 'COK-94',
+                      'Cunami', 'FN', 'Fort-12', 'Franchi', 'HK', 'HK_1', 'IMI_1', 'IMI_2', 'Ingram', 'Kbk', 'L85A1',
+                      'L86A1', 'M1014', 'M4A1', 'Mauser_1', 'MP-153', 'PMM', 'PP-2000', 'PPS', 'SIG', 'Spectre',
+                      'Steyr', 'Walther_1', 'Winchester_1', 'altyn', 'ao-3-old', 'ao-3', 'bc-m', 'bully-old',
+                      'falcon-old', 'falcon', 'hoplite-old', 'hoplite', 'kim-100', 'kim-102', 'kim-105', 'kim-113',
+                      'kim-116', 'kim-85d', 'kim-99m-old', 'kim-99m', 'kz-3a', 'lint-old', 'lint', 'lynx',
+                      'mockingbird-old', 'mockingbird', 'sunrise-old']
+
 goods_veteran = ['9A-91', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK-203', 'AKM_1', 'ALK-22', 'Alpine', 'BCC',
                  'Beretta', 'Beretta_1', 'Beretta_2', 'Caiga-12K', 'CB-98', 'CBD-C', 'CBD', 'CBY', 'Chiappa', 'Cobra',
                  'Colt', 'Colt_1', 'CP-1-10', 'CP-1', 'CP-2M', 'CP-3', 'Crye', 'Desert', 'FG-42', 'FN_1', 'FN_2',
@@ -188,6 +200,7 @@ goods_veteran = ['9A-91', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK-203'
                  'V-ratcatcher', 'V-reaper-old', 'V-reaper', 'V-reporter', 'V-samson-old', 'V-samson', 'V-saturn-vold',
                  'V-skif-2m-old', 'V-skif-2m', 'V-skif-4-old', 'V-skif-4-vold', 'V-skif-4b-old', 'V-snowstorm',
                  'V-spanner', 'V-suit-old', 'V-suit', 'V-sunrise', 'V-tonga', 'V-uran-old', 'V-uran', 'V-yorsh']
+
 goods_master = ['A-545', 'AA-12', 'AK-15', 'AK-308', 'AM-17', 'AMB-17', 'AS-12', 'BCC-M', 'BCCK', 'BCK-94', 'CBD-M',
                 'CP-380', 'CP-3M', 'Desert_1', 'DSA-58', 'FAMAZ', 'FN_4', 'FN_5', 'FN_6', 'Glock_2', 'HK417', 'HK_10',
                 'HK_8', 'HK_9', 'Hladomet', 'Hladorez', 'IWI', 'L96A1', 'LR-300', 'McMillan', 'MG', 'Mk', 'OC-14M_1',
@@ -197,6 +210,7 @@ goods_master = ['A-545', 'AA-12', 'AK-15', 'AK-308', 'AM-17', 'AMB-17', 'AS-12',
                 'M-centurion-old', 'M-centurion', 'M-chief', 'M-granite', 'M-hector', 'M-hound', 'M-jd-zivcas-2a',
                 'M-kim-x', 'M-kz-4', 'M-mule-old', 'M-mule', 'M-peresvet', 'M-punisher', 'M-reitar', 'M-saturn-old',
                 'M-saturn', 'M-sba-tank', 'M-skif-4', 'M-skif-4b', 'M-skif-5', 'M-zivcas']
+
 goods = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-919K', 'AEK-971', 'AH-94', 'AH-94M', 'AK-103', 'AK-105', 'AK-12',
          'AK-15', 'AK-203', 'AK-308', 'AK-74M', 'AKC-74', 'AKC-74Y', 'AKC', 'AKM', 'AKM_1', 'ALK-22', 'Alpine', 'AM-17',
          'AMB-17', 'APS', 'AS-12', 'BCC-M', 'BCC', 'BCCK', 'BCK-94', 'Beretta', 'Beretta_1', 'Beretta_2', 'Bintovka',
@@ -236,4 +250,8 @@ goods = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-919K', 'AEK-971', 'AH-94', 'AH-94
 
 viv = ['viv_boral', 'viv_forest', 'viv_humans', 'viv_night', 'viv_pizdec', 'viv_pizdec2', 'viv_under']
 
-print(len(goods_armor_ID), len(goods_armor_icon))
+camp = [3, 8, 14, 16, 18, 19, 21, 22, 27, 53, 58, 57, 78, 87, 93, 98, 99, 101, 106, 104, 111, 116]
+
+base = [32, 69, 73]
+
+boss = [30, 50, 52]
