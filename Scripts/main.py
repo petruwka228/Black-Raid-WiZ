@@ -21,9 +21,9 @@ def create_event_file():
             f.write('ShowForOwner=True\n')
             f.write('ShowForNonOwner=True\n')
             f.write('AddToGameLog=True\n')
-            f.write('SoundFXForOwner=True\n')
+            f.write('SoundFXForOwner=False\n')
             f.write('SoundFXForOwnerFile=\n')
-            f.write('SoundFXForNonOwner=True\n')
+            f.write('SoundFXForNonOwner=False\n')
             f.write('SoundFXForNonOwnerFile=\n')
             f.write('\n')
 
