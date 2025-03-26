@@ -101,7 +101,13 @@ GroupsForPlayer={','.join(s)}
 ;;;;;;;;;;;;
 ;; Музыка ;;
 ;;;;;;;;;;;;
-music\Black-Raid.mp3
+music\Enemy spotted.ogg
+music\Dirt City.mp3
+music\Road.mp3
+music\Myst.mp3
+music\Wind.mp3
+music\Trance.mp3
+music\conflict.ogg
 
 [AmbientSounds]
 ;;;;;;;;;;;;;;;;;;;

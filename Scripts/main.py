@@ -40,7 +40,6 @@ def import_modules():
         import zombie_addunits
         import Zombie_Invasion
         import Shopot_AddResources
-        import camp
         time.sleep(1)
         import EndVictory
         import territories
@@ -72,4 +71,5 @@ button.pack()
 
 # Запуск приложения
 root.mainloop()
-#pyinstaller --onefile --windowed C:\Users\artem\AppData\Roaming\JetBrains\PyCharmCE2024.2\scratches\WiZ\main.py
+
+#pyinstaller --onefile --windowed C:\github\Black-Raid-WiZ\Scripts\main.py

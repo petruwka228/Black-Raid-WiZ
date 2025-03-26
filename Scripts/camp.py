@@ -8,7 +8,7 @@ for i in range(8):
     b = random.randint(0, len(goods_skilled)-1)
     c = random.randint(1, 5)
     f.write(f'[Event-Camp-Invasion-{i}-0]\n')  # ---
-    f.write(f'Step=1\n')
+    f.write(f'Step={i}\n')
     f.write(f'Zona={a}\n')  # -----
     f.write('Type=Invasion\n')
     f.write('Img=gfx\icons\events\9.png\n')  # ----
@@ -125,34 +125,34 @@ for i in range(8):
         f.write('EventFlagStatusNeed=False\n')
         f.write('EventFlagStatusSet=True\n')
         f.write('\n')
-    for k in range(j+5, 40):
-        f.write(f'[Event-Camp-Invasion-{i}-0]\n')  # ---
-        f.write(f'Step={k}\n')
-        f.write(f'Zona={a}\n')  # -----
-        f.write('Type=Invasion\n')
-        f.write('Img=gfx\icons\events\9.png\n')  # ----
-        f.write(f'TargetResourceImg=gfx\icons\goods\Abakan.png\n')  # ----
-        f.write('Name=Найден предмет\n')
-        f.write(f'Desc-Owner=Ваш боец нашел предмет:\n')  # -----
-        f.write('Desc-NonOwner=\n')
-        f.write('ShowForOwner=False\n')
-        f.write('ShowForNonOwner=False\n')
-        f.write('AddToGameLog=False\n')
-        f.write('SoundFXForOwner=True\n')
-        f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
-        f.write('SoundFXForNonOwner=True\n')
-        f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
-        f.write(
-            'NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Shopot,Clearsky\n')
-        f.write('InvasionOwner=Zombie\n')
-        f.write('InvasionUnit1 = 5\n')
-        f.write('InvasionUnit2 = 5\n')
-        f.write('InvasionUnit3 = 0\n')
-        f.write('InvasionUnit4 = 0\n')
-        f.write(f'EventFlag=Flag-Camp-AddResources-{i}-{k-5}\n')  # ----
-        f.write(f'EventFlagResult=Flag-Camp-Info-{i}-{k-5}\n')  # -----
-        f.write('EventFlagStatusNeed=True\n')
-        f.write('EventFlagStatusSet=False\n')
-        f.write('\n')
+        for k in range(j+5, 40):
+            f.write(f'[Event-Camp-Invasion-{i}-0]\n')  # ---
+            f.write(f'Step={k}\n')
+            f.write(f'Zona={a}\n')  # -----
+            f.write('Type=Invasion\n')
+            f.write('Img=gfx\icons\events\9.png\n')  # ----
+            f.write(f'TargetResourceImg=gfx\icons\goods\Abakan.png\n')  # ----
+            f.write('Name=Найден предмет\n')
+            f.write(f'Desc-Owner=Ваш боец нашел предмет:\n')  # -----
+            f.write('Desc-NonOwner=\n')
+            f.write('ShowForOwner=False\n')
+            f.write('ShowForNonOwner=False\n')
+            f.write('AddToGameLog=False\n')
+            f.write('SoundFXForOwner=True\n')
+            f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
+            f.write('SoundFXForNonOwner=True\n')
+            f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
+            f.write(
+                'NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Shopot,Clearsky\n')
+            f.write('InvasionOwner=Zombie\n')
+            f.write('InvasionUnit1 = 5\n')
+            f.write('InvasionUnit2 = 5\n')
+            f.write('InvasionUnit3 = 0\n')
+            f.write('InvasionUnit4 = 0\n')
+            f.write(f'EventFlag=Flag-Camp-AddResources-{i}-{k-5}\n')  # ----
+            f.write(f'EventFlagResult=Flag-Camp-Info-{i}-{k-5}\n')  # -----
+            f.write('EventFlagStatusNeed=True\n')
+            f.write('EventFlagStatusSet=False\n')
+            f.write('\n')
 
 f.close()
