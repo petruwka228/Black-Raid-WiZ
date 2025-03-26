@@ -22,9 +22,9 @@ def create_event_file():
             f.write('ShowForNonOwner=True\n')
             f.write('AddToGameLog=True\n')
             f.write('SoundFXForOwner=True\n')
-            f.write('SoundFXForOwnerFile=sfx\\events\\baron.mp3\n')
+            f.write('SoundFXForOwnerFile=\n')
             f.write('SoundFXForNonOwner=True\n')
-            f.write('SoundFXForNonOwnerFile=sfx\\events\\baron.mp3\n')
+            f.write('SoundFXForNonOwnerFile=\n')
             f.write('\n')
 
 
