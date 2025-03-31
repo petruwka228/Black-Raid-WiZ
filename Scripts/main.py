@@ -21,10 +21,10 @@ def create_event_file():
             f.write('ShowForOwner=True\n')
             f.write('ShowForNonOwner=True\n')
             f.write('AddToGameLog=True\n')
-            f.write('SoundFXForOwner=False\n')
-            f.write('SoundFXForOwnerFile=\n')
-            f.write('SoundFXForNonOwner=False\n')
-            f.write('SoundFXForNonOwnerFile=\n')
+            f.write('SoundFXForOwner=True\n')
+            f.write('SoundFXForOwnerFile=sfx\events\\baron.mp3\n')
+            f.write('SoundFXForNonOwner=True\n')
+            f.write('SoundFXForNonOwnerFile=sfx\events\\baron.mp3\n')
             f.write('\n')
 
 
@@ -40,7 +40,6 @@ def import_modules():
         import zombie_addunits
         import Zombie_Invasion
         import Shopot_AddResources
-        import camp
         time.sleep(1)
         import EndVictory
         import territories

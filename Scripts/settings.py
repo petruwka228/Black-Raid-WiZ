@@ -54,7 +54,7 @@ ActiveMutantScaleForMutantUnit3=50
 ActiveMutantScaleForMutantUnit4=75
 BasedChanceForSearchArts=1000
 BasedChanceOfDethForSearchArts=0
-ExcludedUpgrades=Upgrade-11, Upgrade-12, Upgrade-13, Upgrade-14, Upgrade-15, Upgrade-16, Upgrade-17, Upgrade-18, Upgrade-19, Upgrade-20, Upgrade-21, Upgrade-22, Upgrade-23, Upgrade-24
+ExcludedUpgrades=Upgrade-8, Upgrade-9, Upgrade-10, Upgrade-11, Upgrade-12, Upgrade-13, Upgrade-14, Upgrade-15, Upgrade-16, Upgrade-17, Upgrade-18, Upgrade-19, Upgrade-20, Upgrade-21, Upgrade-22, Upgrade-23, Upgrade-24
 ExcludedBuildings=building1, building2, building3, building4, building5, building6, building7, building8, building9, building10, building11, building12
 BasedCostArmyMove=10
 BasedCostAtackType1=10
@@ -101,13 +101,7 @@ GroupsForPlayer={','.join(s)}
 ;;;;;;;;;;;;
 ;; Музыка ;;
 ;;;;;;;;;;;;
-music\Enemy spotted.ogg
-music\Dirt City.mp3
-music\Road.mp3
-music\Myst.mp3
-music\Wind.mp3
-music\Trance.mp3
-music\conflict.ogg
+music\Black-Raid.mp3
 
 [AmbientSounds]
 ;;;;;;;;;;;;;;;;;;;
