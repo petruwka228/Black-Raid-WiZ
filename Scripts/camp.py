@@ -23,8 +23,8 @@ for i in range(8):
     f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
     f.write('NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Shopot,Clearsky,'
             'airdrop\n')
-    f.write(f'EventFlag=Flag-{a[i]}-1\n')  # ----
-    f.write(f'EventFlagResult=Flag-{a[i]}-1\n')  # ----
+    f.write(f'EventFlag=Flag-Camp-{a[i]}-1\n')  # ----
+    f.write(f'EventFlagResult=Flag-Camp-{a[i]}-1\n')  # ----
     f.write('EventFlagStatusNeed=False\n')
     f.write('EventFlagStatusSet=True\n')
     f.write('InvasionOwner=Camp\n')
@@ -54,8 +54,8 @@ for i in range(8):
         f.write('SoundFXForNonOwner=True\n')
         f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
         f.write('NotWorkFractions=Mutants,Airdrop,Shopot,Zombie\n')
-        f.write(f'EventFlag=Flag-{a[i]}-{j-1}\n')  # ----
-        f.write(f'EventFlagResult=Flag-{a[i]}-{j}\n')  # ----
+        f.write(f'EventFlag=Flag-Camp-{a[i]}-{j-1}\n')  # ----
+        f.write(f'EventFlagResult=Flag-Camp-{a[i]}-{j}\n')  # ----
         f.write('EventFlagStatusNeed=True\n')
         f.write('EventFlagStatusSet=False\n')
         f.write('\n')
@@ -79,8 +79,8 @@ for i in range(8):
         f.write(
             'NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Shopot,Clearsky,'
             'airdrop\n')
-        f.write(f'EventFlag=Flag-{a[i]}-{j-5}\n')  # ----
-        f.write(f'EventFlagResult=Flag-{a[i]}-{j}\n')  # ----
+        f.write(f'EventFlag=Flag-Camp-{a[i]}-{j-5}\n')  # ----
+        f.write(f'EventFlagResult=Flag-Camp-{a[i]}-{j}\n')  # ----
         f.write('EventFlagStatusNeed=False\n')
         f.write('EventFlagStatusSet=True\n')
         f.write('InvasionOwner=Camp\n')
@@ -110,8 +110,8 @@ for i in range(8):
         f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
         f.write('NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Shopot,'
                 'Clearsky\n')
-        f.write(f'EventFlag=Flag-{a[i]}-{j - 1}\n')  # ----
-        f.write(f'EventFlagResult=Flag-{a[i]}-{j}\n')  # ----
+        f.write(f'EventFlag=Flag-Camp-{a[i]}-{j - 1}\n')  # ----
+        f.write(f'EventFlagResult=Flag-Camp-{a[i]}-{j}\n')  # ----
         f.write('EventFlagStatusNeed=True\n')
         f.write('EventFlagStatusSet=True\n')
         f.write('\n')
@@ -135,8 +135,8 @@ for i in range(8):
         f.write('SoundFXForNonOwner=True\n')
         f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
         f.write('NotWorkFractions=Camp\n')
-        f.write(f'EventFlag=Flag-{a[i]}-{j - 1}\n')  # ----
-        f.write(f'EventFlagResult=Flag-{a[i]}-{j}\n')  # ----
+        f.write(f'EventFlag=Flag-Camp-{a[i]}-{j - 1}\n')  # ----
+        f.write(f'EventFlagResult=Flag-Camp-{a[i]}-{j}\n')  # ----
         f.write('EventFlagStatusNeed=False\n')
         f.write('EventFlagStatusSet=False\n')
         f.write('\n')
