@@ -1,6 +1,7 @@
 from dir import *
 import random
-a = random.shuffle(camp)[:8]
+random.shuffle(camp)
+a = camp[:8]
 f = open('Events_Story.ini', 'a', encoding='utf-8-sig')
 
 for i in range(8):
@@ -25,6 +26,11 @@ for i in range(8):
     f.write(f'EventFlagResult=Flag-{a[i]}-1\n')  # ----
     f.write('EventFlagStatusNeed=False\n')
     f.write('EventFlagStatusSet=True\n')
+    f.write('InvasionOwner=Camp\n')
+    f.write('InvasionUnit1 = 5\n')
+    f.write('InvasionUnit2 = 5\n')
+    f.write('InvasionUnit3 = 0\n')
+    f.write('InvasionUnit4 = 0\n')
     f.write('\n')
     for j in range(2, 31):
         b = random.randint(0, len(goods_skilled)-1)
@@ -75,6 +81,11 @@ for i in range(8):
         f.write(f'EventFlagResult=Flag-{a[i]}-{j}\n')  # ----
         f.write('EventFlagStatusNeed=False\n')
         f.write('EventFlagStatusSet=True\n')
+        f.write('InvasionOwner=Camp\n')
+        f.write('InvasionUnit1 = 5\n')
+        f.write('InvasionUnit2 = 5\n')
+        f.write('InvasionUnit3 = 0\n')
+        f.write('InvasionUnit4 = 0\n')
         f.write('\n')
     for j in range(2, 31):
         f.write(f'[Event-Camp-Info-{a[i]}-{j}]\n')  # ---

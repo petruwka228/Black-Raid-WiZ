@@ -269,5 +269,3 @@ camp = [3, 8, 14, 16, 18, 19, 21, 22, 27, 30, 53, 56, 57, 58, 78, 81, 87, 93, 98
 base = [32, 34, 38, 69, 73]
 
 boss = [30, 50, 52, 78]
-
-print([goods_armor_name[i] for i in range(len(goods_armor_ID)) if goods_armor_ID[i] in goods_skilled])
