@@ -89,7 +89,7 @@ for i in range(8):
         f.write('InvasionUnit4 = 0\n')
         f.write('\n')
     for j in range(2, 31):
-        f.write(f'[Event-Camp-Info-{a[i]}-{j}]\n')  # ---
+        f.write(f'[Event-Camp-Info-{a[i]}-{j}-1]\n')  # ---
         f.write(f'Step={j}\n')
         f.write(f'Zona={a[i]}\n')  # -----
         f.write('Type=Info\n')
@@ -115,7 +115,7 @@ for i in range(8):
         f.write('EventFlagStatusSet=True\n')
         f.write('\n')
     for j in range(2, 31):
-        f.write(f'[Event-Camp-Info-{a[i]}-{j}]\n')  # ---
+        f.write(f'[Event-Camp-Info-{a[i]}-{j}-0]\n')  # ---
         f.write(f'Step={j}\n')
         f.write(f'Zona={a[i]}\n')  # -----
         f.write('Type=Info\n')
