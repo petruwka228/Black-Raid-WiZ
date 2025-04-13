@@ -34,7 +34,7 @@ goods_armor_icon = ['ao-1', 'ao-2-old', 'ao-2', 'aurora-b', 'aurora-m', 'aurora'
                     'kz-2', 'mole-b', 'mole', 'mushroom-old', 'mushroom', 'ozk', 'rain', 'raincoat-b', 'raincoat-m',
                     'raincoat', 'scout', 'slide', 'stryker', 'suit-b', 'trapper-old', 'trapper', 'worm',
                     'altyn', 'ao-3-old', 'ao-3', 'bc-m', 'bully-old', 'falcon-old', 'falcon', 'hoplite-old', 'hoplite',
-                    'kim-100', 'kim-102', 'kim-105', 'kim-113', 'kim-116', 'kim-85d', 'kim-99m-old', 'kim-99m', 'kz-3a',
+                    'kim-100', 'kim-102', 'kim-105', 'kim-113', 'kim-116', 'kim-85d', 'kim-99-m-old', 'kim-99-m', 'kz-3a',
                     'lint-old', 'lint', 'lynx', 'mockingbird-old', 'mockingbird', 'sunrise-old']
 
 goods_armor_ID = ['N-ao-1', 'N-ao-2-old', 'N-ao-2', 'N-aurora-b', 'N-aurora-m', 'N-aurora', 'N-balloon-b', 'N-bc',
@@ -182,7 +182,7 @@ goods_skilled_icon = ['AEK-919K', 'AH-94', 'AK-105', 'AKM', 'APS', 'Browning', '
                       'L86A1', 'M1014', 'M4A1', 'Mauser_1', 'MP-153', 'PMM', 'PP-2000', 'PPS', 'SIG', 'Spectre',
                       'Steyr', 'Walther_1', 'Winchester_1', 'altyn', 'ao-3-old', 'ao-3', 'bc-m', 'bully-old',
                       'falcon-old', 'falcon', 'hoplite-old', 'hoplite', 'kim-100', 'kim-102', 'kim-105', 'kim-113',
-                      'kim-116', 'kim-85d', 'kim-99m-old', 'kim-99m', 'kz-3a', 'lint-old', 'lint', 'lynx',
+                      'kim-116', 'kim-85d', 'kim-99-m-old', 'kim-99-m', 'kz-3a', 'lint-old', 'lint', 'lynx',
                       'mockingbird-old', 'mockingbird', 'sunrise-old']
 
 goods_skilled_name = ['АЕК-919К «Каштан»', 'АН-94 «Абакан»', 'АК-105', 'АКМ', 'АПС', 'Browning Hi-Power', 'СВТ-40',
