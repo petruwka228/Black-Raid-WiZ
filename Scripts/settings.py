@@ -79,7 +79,7 @@ BasedCostForLeaveZone=0
 OwnerFractionOfAbandonedZone=Mutants
 BasedCostChangeMainZone=100
 BasedPercentLostResources=0
-NoBaseNeeded=Mutants,Stalkers,Bandits,Soldiers,Duty,Freedom,Monolith,Mercenaries,Scientists,Shopot,Zombie,Clearsky
+NoBaseNeeded=Mutants,Stalkers,Bandits,Soldiers,Duty,Freedom,Monolith,Mercenaries,Scientists,Shopot,Zombie,Clearsky,Camp
 
 ;; Условия победы и поражения
 End-Standart-Victory=False
