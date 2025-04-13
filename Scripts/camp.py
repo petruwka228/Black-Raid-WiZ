@@ -77,7 +77,8 @@ for i in range(8):
         f.write('SoundFXForNonOwner=True\n')
         f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
         f.write(
-            'NotWorkFractions=Shopot,airdrop\n')
+            'NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Shopot,Clearsky,'
+            'airdrop\n')
         f.write(f'EventFlag=Flag-{a[i]}-{j-5}\n')  # ----
         f.write(f'EventFlagResult=Flag-{a[i]}-{j}\n')  # ----
         f.write('EventFlagStatusNeed=False\n')
