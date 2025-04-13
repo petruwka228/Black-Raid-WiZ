@@ -21,7 +21,8 @@ for i in range(8):
     f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
     f.write('SoundFXForNonOwner=True\n')
     f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
-    f.write('NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Shopot,Clearsky\n')
+    f.write('NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Shopot,Clearsky,'
+            'airdrop\n')
     f.write(f'EventFlag=Flag-{a[i]}-1\n')  # ----
     f.write(f'EventFlagResult=Flag-{a[i]}-1\n')  # ----
     f.write('EventFlagStatusNeed=False\n')
@@ -76,7 +77,7 @@ for i in range(8):
         f.write('SoundFXForNonOwner=True\n')
         f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
         f.write(
-            'NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Shopot,Clearsky\n')
+            'NotWorkFractions=Shopot,airdrop\n')
         f.write(f'EventFlag=Flag-{a[i]}-{j-5}\n')  # ----
         f.write(f'EventFlagResult=Flag-{a[i]}-{j}\n')  # ----
         f.write('EventFlagStatusNeed=False\n')
@@ -112,5 +113,30 @@ for i in range(8):
         f.write(f'EventFlagResult=Flag-{a[i]}-{j}\n')  # ----
         f.write('EventFlagStatusNeed=True\n')
         f.write('EventFlagStatusSet=True\n')
+        f.write('\n')
+    for j in range(2, 31):
+        f.write(f'[Event-Camp-Info-{a[i]}-{j}]\n')  # ---
+        f.write(f'Step={j}\n')
+        f.write(f'Zona={a[i]}\n')  # -----
+        f.write('Type=Info\n')
+        f.write('Img=gfx\icons\events\9.png\n')  # ----
+        f.write(f'TargetResourceImg=gfx\icons\goods\money.png\n')  # ----
+        f.write('Name=Найден предмет\n')
+        f.write(f'Desc-Owner=Вы зачистили лагерь зомбированных и получили пред\n')  # -----
+        f.write('Desc-NonOwner=\n')
+        f.write('ShowForOwner=True\n')
+        f.write('ShowForNonOwner=False\n')
+        f.write('AddToGameLog=False\n')
+        f.write(f'NameResources=\n')  # ----
+        f.write('CountResources=1\n')
+        f.write('SoundFXForOwner=True\n')
+        f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
+        f.write('SoundFXForNonOwner=True\n')
+        f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
+        f.write('NotWorkFractions=Camp\n')
+        f.write(f'EventFlag=Flag-{a[i]}-{j - 1}\n')  # ----
+        f.write(f'EventFlagResult=Flag-{a[i]}-{j}\n')  # ----
+        f.write('EventFlagStatusNeed=False\n')
+        f.write('EventFlagStatusSet=False\n')
         f.write('\n')
 f.close()
