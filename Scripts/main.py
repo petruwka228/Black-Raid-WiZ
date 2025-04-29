@@ -40,7 +40,10 @@ def import_modules():
         import zombie_addunits
         import Zombie_Invasion
         import Shopot_AddResources
-        #import camp
+        import traders
+        import market
+        import camp
+        import base
         time.sleep(1)
         import EndVictory
         import traders_good
