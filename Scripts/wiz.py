@@ -25,7 +25,7 @@ for j in zones: # менять значения сначала zones_a, пото
             f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
             f.write('SoundFXForNonOwner=True\n')
             f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
-            f.write('NotWorkFractions=Mutants,Airdrop,Shopot,Zombie,camp\n')
+            f.write('NotWorkFractions=Mutants,Airdrop,Shopot,Zombie,camp,shop,base\n')
             f.write(f'EventFlag=Flag-{j}-0\n')  # ----
             f.write(f'EventFlagResult=Flag-{j}-0\n')  # ----
             f.write('EventFlagStatusNeed=False\n')
@@ -49,7 +49,7 @@ for j in zones: # менять значения сначала zones_a, пото
             f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
             f.write('SoundFXForNonOwner=True\n')
             f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
-            f.write('NotWorkFractions=Mutants,Airdrop,Shopot,Zombie,camp\n')
+            f.write('NotWorkFractions=Mutants,Airdrop,Shopot,Zombie,camp,shop,base\n')
             f.write(f'EventFlag=Flag-{j}-1\n')  # ----
             f.write(f'EventFlagResult=Flag-{j}-1\n')  # -----
             f.write('EventFlagStatusNeed=False\n')
@@ -76,7 +76,7 @@ for j in zones: # менять значения сначала zones_a, пото
             f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
             f.write('SoundFXForNonOwner=True\n')
             f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
-            f.write('NotWorkFractions=Mutants,Airdrop,Shopot,Zombie,camp\n')
+            f.write('NotWorkFractions=Mutants,Airdrop,Shopot,Zombie,camp,shop,base\n')
             f.write(f'EventFlag=Flag-{j}-0\n')  # ----
             f.write(f'EventFlagResult=Flag-{j}-0\n')  # ----
             f.write('EventFlagStatusNeed=False\n')

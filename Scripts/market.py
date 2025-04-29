@@ -3,6 +3,9 @@ f = open('Events_Story.ini', 'a', encoding='utf-8-sig')
 
 for i in range(1, 35):
     for j in zones_traders:
+        f.write(f'[Event-airdrop-ChangeZonaOwner-{j}-{i}]\n')  # ---
+        f.write(f'Step={i}\n')
+        f.write(f'Zona={j}\n')
         f.write('Type=ChangeZonaOwner\n')
         f.write('Img=gfx\icons\Events\\airdrop.jpg\n')  # ----
         f.write(f'TargetResourceImg=gfx\old\\NoData_100x100.png\n')  # ----
