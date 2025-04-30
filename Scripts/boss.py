@@ -28,26 +28,26 @@ for i in range(2):
     f.write('EventFlagStatusNeed=False\n')
     f.write('EventFlagStatusSet=True\n')
     f.write('InvasionOwner=boss\n')
-    f.write('InvasionUnit1 = 0\n')
-    f.write('InvasionUnit2 = 0\n')
+    f.write('InvasionUnit1 = 5\n')
+    f.write('InvasionUnit2 = 5\n')
     f.write('InvasionUnit3 = 5\n')
-    f.write('InvasionUnit4 = 5\n')
+    f.write('InvasionUnit4 = 1\n')
     f.write('\n')
     for j in range(21, 31):
-        b = random.randint(0, len(goods_veteran)-1)
+        b = random.randint(0, len(goods_master)-1)
         f.write(f'[Event-boss-AddResources-{a[i]}-{j}]\n')  # ---
         f.write(f'Step={j}\n')
         f.write(f'Zona={a[i]}\n')  # -----
         f.write('Type=AddResources\n')
         f.write('Img=gfx\icons\events\9.png\n')  # ----
-        f.write(f'TargetResourceImg=gfx\icons\goods\{goods_veteran_icon[b]}.png\n')  # ----
+        f.write(f'TargetResourceImg=gfx\icons\goods\{goods_master_icon[b]}.png\n')  # ----
         f.write('Name=Лагерь зачищен\n')
-        f.write(f'Desc-Owner=Вы зачистили базу зомбированных и получили предмет: {goods_veteran_name[b]}\n')  # -----
+        f.write(f'Desc-Owner=Вы зачистили базу зомбированных и получили предмет: {goods_master_name[b]}\n')  # -----
         f.write('Desc-NonOwner=\n')
         f.write('ShowForOwner=True\n')
         f.write('ShowForNonOwner=False\n')
         f.write('AddToGameLog=False\n')
-        f.write(f'NameResources={goods_veteran[b]}\n')  # ----
+        f.write(f'NameResources={goods_master[b]}\n')  # ----
         f.write('CountResources=1\n')
         f.write('SoundFXForOwner=True\n')
         f.write('SoundFXForOwnerFile=sfx\events\message.mp3\n')
