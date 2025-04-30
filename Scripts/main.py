@@ -40,7 +40,6 @@ def import_modules():
         import zombie_addunits
         import Shopot_AddResources
         import traders
-        import market
         import camp
         import base
         import boss
@@ -48,6 +47,7 @@ def import_modules():
         import EndVictory
         import traders_good
         import Zombie_Invasion
+        import market
         return "Модули успешно импортированы."
     except ImportError as e:
         return f"Ошибка импорта: {e}"
