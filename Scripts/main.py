@@ -38,12 +38,16 @@ def import_modules():
         import wiz
         import airdrops
         import zombie_addunits
-        import Zombie_Invasion
         import Shopot_AddResources
+        import traders
+        import camp
+        import base
+        import boss
         time.sleep(1)
         import EndVictory
-        import territories
         import traders_good
+        import Zombie_Invasion
+        import market
         return "Модули успешно импортированы."
     except ImportError as e:
         return f"Ошибка импорта: {e}"

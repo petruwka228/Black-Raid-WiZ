@@ -28,13 +28,13 @@ goods_weapon_name = ['АЕК-919К «Каштан»', 'АН-94 «Абакан»'
                      'Поношенный SIG SG 550','Spectre M4', 'Steyr Scout', 'ТОЗ-34', 'ТТ', 'Vz.68 Scorpion',
                      'Walther MPK', 'Walther P99','Поношенный Winchester M70', 'Winchester M70']
 
-goods_armor_icon = ['ao-1', 'ao-2-old', 'ao-2', 'aurora-b', 'aurora-m', 'aurora', 'balloon-b', 'bc', 'coat', 'currant',
+goods_armor_icon = ['ao-1', 'ao-2-old', 'ao-2', 'aurora-b', 'aurora-m', 'aurora', 'ballon-b', 'bc', 'coat', 'currant',
                     'disguise', 'dogman', 'gas-mask-b', 'ip', 'jacket-b', 'jacket-m', 'jacket-mm', 'jacket-mm2',
                     'jacket', 'key', 'kim-99-old', 'kim-99', 'kleptoman-old', 'kleptoman', 'kojak-b', 'kz-1',
                     'kz-2', 'mole-b', 'mole', 'mushroom-old', 'mushroom', 'ozk', 'rain', 'raincoat-b', 'raincoat-m',
                     'raincoat', 'scout', 'slide', 'stryker', 'suit-b', 'trapper-old', 'trapper', 'worm',
                     'altyn', 'ao-3-old', 'ao-3', 'bc-m', 'bully-old', 'falcon-old', 'falcon', 'hoplite-old', 'hoplite',
-                    'kim-100', 'kim-102', 'kim-105', 'kim-113', 'kim-116', 'kim-85d', 'kim-99m-old', 'kim-99m', 'kz-3a',
+                    'kim-100', 'kim-102', 'kim-105', 'kim-113', 'kim-116', 'kim-85d', 'kim-99-m-old', 'kim-99-m', 'kz-3a',
                     'lint-old', 'lint', 'lynx', 'mockingbird-old', 'mockingbird', 'sunrise-old']
 
 goods_armor_ID = ['N-ao-1', 'N-ao-2-old', 'N-ao-2', 'N-aurora-b', 'N-aurora-m', 'N-aurora', 'N-balloon-b', 'N-bc',
@@ -158,7 +158,7 @@ goods_airdrop_ID = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-971', 'AH-94M', 'AK-10
 groups = ['Stalkers', 'Bandits', 'Soldiers', 'Duty', 'Freedom', 'Mercenaries', 'Monolith', 'Scientists', 'Shopot',
           'Clearsky']
 
-zones_traders = [3, 4, 11, 16, 22, 24, 26, 28, 29, 35, 37, 42, 45, 54, 56, 65, 83, 87, 88, 98, 101, 110]
+zones_traders = [4, 11, 24, 26, 28, 29, 35, 37, 42, 45, 54, 65, 83, 88, 110]
 goods_novice = ['AK-74M', 'AKC-74', 'AKC-74Y', 'AKC', 'Bintovka', 'BM-16', 'CKC', 'CKT-40', 'DP', 'Gepard', 'IMI',
                 'Karabin', 'M16A1', 'M16A2', 'M16A3', 'Mauser', 'Mossberg', 'MP-133', 'Obrez', 'P-92', 'PB',
                 'PP-91', 'Shorty', 'TO3-34', 'TT', 'vz68', 'walther', 'Winchester', 'N-ao-1', 'N-ao-2-old', 'N-ao-2',
@@ -182,8 +182,22 @@ goods_skilled_icon = ['AEK-919K', 'AH-94', 'AK-105', 'AKM', 'APS', 'Browning', '
                       'L86A1', 'M1014', 'M4A1', 'Mauser_1', 'MP-153', 'PMM', 'PP-2000', 'PPS', 'SIG', 'Spectre',
                       'Steyr', 'Walther_1', 'Winchester_1', 'altyn', 'ao-3-old', 'ao-3', 'bc-m', 'bully-old',
                       'falcon-old', 'falcon', 'hoplite-old', 'hoplite', 'kim-100', 'kim-102', 'kim-105', 'kim-113',
-                      'kim-116', 'kim-85d', 'kim-99m-old', 'kim-99m', 'kz-3a', 'lint-old', 'lint', 'lynx',
+                      'kim-116', 'kim-85d', 'kim-99-m-old', 'kim-99-m', 'kz-3a', 'lint-old', 'lint', 'lynx',
                       'mockingbird-old', 'mockingbird', 'sunrise-old']
+
+goods_skilled_name = ['АЕК-919К «Каштан»', 'АН-94 «Абакан»', 'АК-105', 'АКМ', 'АПС', 'Browning Hi-Power', 'СВТ-40',
+                      'СКС-Т', 'Cobray Terminator', 'СОК-94', '«Цунами»', 'FN SCAR-L', 'Форт-12', 'Franchi SPAS-12',
+                      'HK MP5K', 'HK UMP9', 'IMI Micro Uzi', 'IMI Mini Uzi', 'Ingram MAC-10', 'Kbk wz. 88 Tantal',
+                      'Поношенная L85A1', 'Поношенная L86A1', 'M1014', 'M4A1', 'Mauser C96', 'МР-153', 'ПММ', 'ПП-2000',
+                      'ППШ', 'Поношенный SIG SG 550', 'Spectre M4', 'Steyr Scout', 'Walther P99', 'Winchester M70',
+                      'Комплект «Алтын»', 'Поношенный костюм АО-3 «Искатель»', 'Костюм АО-3 «Искатель»',
+                      'Лечебный «Комбат»', 'Поношенный тяжелый бронекостюм «Громила»', 'Поношенный бронекостюм «Сокол»',
+                      'Бронекостюм «Сокол»', 'Поношенный бронекостюм «Гоплит»', 'Бронекостюм «Гоплит»',
+                      'КИМ-100 «Гранат»', 'КИМ-102 «Циркон»', 'КИМ-105 «Топаз»', 'КИМ-113 «Иолит»', 'КИМ-116 «Изумруд»',
+                      'КИМ-85Д', 'Поношенный КИМ-99М «Малахит»', 'КИМ-99М «Малахит»', 'Бронекостюм «КЗ-3а»',
+                      'Поношенный защитный костюм «Ворса»', 'Защитный костюм «Ворса»', 'Бронекостюм «Рысь»',
+                      'Поношенный бронекостюм «Пересмешник»', 'Бронекостюм «Пересмешник»',
+                      'Поношенный тяжелый бронекостюм «Восход»']
 
 goods_veteran = ['9A-91', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK-203', 'AKM_1', 'ALK-22', 'Alpine', 'BCC',
                  'Beretta', 'Beretta_1', 'Beretta_2', 'Caiga-12K', 'CB-98', 'CBD-C', 'CBD', 'CBY', 'Chiappa', 'Cobra',
@@ -201,8 +215,53 @@ goods_veteran = ['9A-91', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK-203'
                  'V-skif-2m-old', 'V-skif-2m', 'V-skif-4-old', 'V-skif-4-vold', 'V-skif-4b-old', 'V-snowstorm',
                  'V-spanner', 'V-suit-old', 'V-suit', 'V-sunrise', 'V-tonga', 'V-uran-old', 'V-uran', 'V-yorsh']
 
+goods_veteran_name = ['9А-91', 'АС «Вал»', 'АЕК-971', 'АН-94М «Абакан»', 'АК-103', 'АК-12', 'АК-203', 'АКМ «Тишина»',
+                       'АЛК-22 «Стрекоза»', 'Alpine TPG-1', 'ВСС «Винторез»', 'Beretta 92FS', 'Beretta 93R',
+                       'Beretta Mx4 Storm', 'Сайга-12К', 'СВ-98', 'СВД-С', 'СВД', 'СВУ', 'Chiappa Triple Crown',
+                       'Cobra Two-Tone', 'Поношенный Colt Python', 'Colt Python', 'СР-1-10', 'СР-1 «Гюрза»',
+                       'СР-2М «Вереск»', 'СР-3 «Вихрь»', 'Crye Precision SIX12', 'Desert Eagle Mark VII',
+                       'FG-42 «Хлыст»', 'Старый FN FAL', 'FN F2000', 'FN P90', 'Glock 17', 'Glock 18C', 'Grizzly 8.5',
+                       'HK416', 'Поношенная HK G3A1', 'HK G3A1', 'HK G36C', 'HK PSG1', 'HK MP5', 'HK UMP45', 'L85A1',
+                       'L86A1', '«Лягуха»', 'M1014 Breacher', 'M1A', 'M1A FA', 'M249 SAW', 'M4 LB', 'M40A5',
+                       'Поношенная M40A5', 'M4A1 CQC', 'МЦ-116М', 'МЦ-255', 'МЦ-558', 'МР-412', 'ОЦ-14 «Гроза»',
+                       'ОЦ-14М «Ураган»', 'ОЦ-62', 'Огнемет', '«Огниво»', 'РГ-6', 'Поношенный ПКП', 'РМО-93',
+                       'ПП-19-01 «Витязь»', 'ПП-19 «Бизон-2-01»', 'ПП «Орех»', 'Protecta', '«Рапира»', 'РПД', 'РПК-16',
+                       'РПК-74', 'РПК', 'SIG SG 550', 'SIG SG 550 Sniper', 'SIG MPX', 'Steyr AUG A3', 'Steyr AUG A2',
+                       'Steyr AUG A1', 'Steyr AUG 9mm', 'Steyr AUG A3 9mm XS', 'SW1911', 'ТКБ-0146М', '«Витязь-СН»',
+                       'Экзоскелет «Абориген»', 'Бронескелет «Альбатрос-Лазутчик»', 'Бронескелет «Альбатрос-Разведчик»',
+                       'Тяжелый комплект «Алтын-Т»', 'Поношенный АО-4 «Рейдер»', 'УКАЗ АО-4 «Рейдер»',
+                       'УКАЗ АО-5 «Пилигрим»', 'Бронекостюм «Армай»', 'Экзоскелет «Медведь»',
+                       'Tяжелый бронекостюм «Громила»', 'Поврежденный «Центурион»', 'Костюм «Экспедиция»',
+                       'Бронекостюм «Призрачный охотник»', 'Экзоскелет «Гренадер»', 'Экзоброня «Егерь»',
+                       'КИМ-122 «Аметист»', 'Бронекостюм «КЗ-3б»', 'Поношенный «Легионер»',
+                       'Тяжелый бронекостюм «Легионер»', 'Комбинезон «Магнит»',
+                       'Тяжелый бронекостюм «Туманный охотник»', 'Поношенный защитный костюм «Ош»',
+                       'Защитный костюм «Ош»', 'Поношенный «Пахан»', 'Бронекостюм «Пахан»', 'Экзоброня «Крысолов»',
+                       'Поношенный комбинезон «Жнец»', 'Комбинезон «Жнец»', 'Броня репортера',
+                       'Поношенный экзоскелет «Самсон»', 'Экзоскелет «Самсон»', 'Поврежденный комбинезон «Сатурн»',
+                       'Поношенный «Скиф-2м»', 'Бронекостюм «Скиф-2м»', 'Поношенный «Скиф-4»', 'Поврежденный «Скиф-4»',
+                       'Поношенный «Скиф-4б»', 'Тяжелый бронекостюм «Идущий в метели»', 'УКАЗ «Спаннер»',
+                       'Поношенная «Масть»', 'Экзоскелет «Масть»', 'Tяжелый бронекостюм «Восход»', 'Комбинезон «Тонга»',
+                       'Поношенный комбинезон «Уран»', 'Комбинезон «Уран»', 'Защитный бронекостюм «Йорш»']
+
+goods_veteran_icon = ['9A-91', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK-203', 'AKM_1', 'ALK-22', 'Alpine',
+                      'BCC', 'Beretta', 'Beretta_1', 'Beretta_2', 'Caiga-12K', 'CB-98', 'CBD-C', 'CBD', 'CBY',
+                      'Chiappa', 'Cobra', 'Colt', 'Colt_1', 'CP-1-10', 'CP-1', 'CP-2M', 'CP-3', 'Crye', 'Desert',
+                      'FG-42', 'FN_1', 'FN_2', 'FN_3', 'Glock', 'Glock_1', 'Grizzly', 'HK416', 'HK_2', 'HK_3', 'HK_4',
+                      'HK_5', 'HK_6', 'HK_7', 'L85A1_1', 'L86A1_1', 'Lyaguha', 'M1014_1', 'M1A', 'M1A_1', 'M249', 'M4',
+                      'M40A5', 'M40A5_1', 'M4A1_1', 'MC-116M', 'MC-255', 'MC-558', 'MP-412', 'OC-14', 'OC-14M', 'OC-62',
+                      'Ognemet', 'Ognivo', 'PG-6', 'PKP', 'PMO-93', 'PP-19-01', 'PP-19', 'PP', 'Protecta', 'Rapira',
+                      'RPD', 'RPK-16', 'RPK-74', 'RPK', 'SIG_1', 'SIG_2', 'SIG_3', 'Steyr_1', 'Steyr_2', 'Steyr_3',
+                      'Steyr_4', 'Steyr_5', 'SW1911', 'TKB-0146M', 'Vityaz-CH', 'aborigine', 'albatross-laz',
+                      'albatross-scout', 'altyn-t', 'ao-4-old', 'ao-4', 'ao-5', 'armai', 'bear', 'bully',
+                      'centurion-vold', 'expedition', 'ghost-hunter', 'grenadier', 'huntsman', 'kim-122', 'kz-3b',
+                      'leggionaire-old', 'legionnaire', 'magnet', 'misty-hunter', 'osh-old', 'osh', 'ploughman-old',
+                      'ploughman', 'ratcatcher', 'reaper-old', 'reaper', 'reporter', 'samson-old', 'samson',
+                      'saturn-vold', 'skif-2m-old', 'skif-2m', 'skif-4-old', 'skif-4-vold', 'skif-4b-old', 'snowstorm',
+                      'spanner', 'suit-old', 'suit', 'sunrise', 'tonga', 'uran-old', 'uran', 'yorsh']
+
 goods_master = ['A-545', 'AA-12', 'AK-15', 'AK-308', 'AM-17', 'AMB-17', 'AS-12', 'BCC-M', 'BCCK', 'BCK-94', 'CBD-M',
-                'CP-380', 'CP-3M', 'Desert_1', 'DSA-58', 'FAMAZ', 'FN_4', 'FN_5', 'FN_6', 'Glock_2', 'HK417', 'HK_10',
+                'CP-380', 'CP-3M', 'Desert_1', 'DSA-58', 'FAMAZ', 'FN_4', 'FN_5', 'FN_6', 'Glock_2', 'HK417', 'FN_7',
                 'HK_8', 'HK_9', 'Hladomet', 'Hladorez', 'IWI', 'L96A1', 'LR-300', 'McMillan', 'MG', 'Mk', 'OC-14M_1',
                 'OC-33', 'OTL-03', 'PKP_1', 'PPK-20', 'PTRD-M', 'QBZ-191', 'RPG-7', 'RPL-20', 'RS-12', 'SA-58',
                 'Scorpion', 'SIG_4', 'TDI', 'Vintovka', 'WA2000', 'M-ace-old', 'M-ace', 'M-albatross-stormtrooper',
@@ -210,6 +269,34 @@ goods_master = ['A-545', 'AA-12', 'AK-15', 'AK-308', 'AM-17', 'AMB-17', 'AS-12',
                 'M-centurion-old', 'M-centurion', 'M-chief', 'M-granite', 'M-hector', 'M-hound', 'M-jd-zivcas-2a',
                 'M-kim-x', 'M-kz-4', 'M-mule-old', 'M-mule', 'M-peresvet', 'M-punisher', 'M-reitar', 'M-saturn-old',
                 'M-saturn', 'M-sba-tank', 'M-skif-4', 'M-skif-4b', 'M-skif-5', 'M-zivcas']
+
+goods_master_name = ['А-545', 'AA-12', 'АК-15', 'АК-308', 'АМ-17', 'АМБ-17', 'АШ-12', 'ВСС-М «Винторез»',
+                     'ВССК «Выхлоп»', 'ВСК-94', 'СВД-М', 'CR-380', 'СР-3М', 'Desert Eagle Mark XIX', 'DSA-58',
+                     'FAMAS G2', 'FN FAL', 'FN F2000 Tactical', 'FN SCAR-H', 'Glock 18X', 'HK417', 'FN SCAR SSR',
+                     'HK XM8S', 'HK XM8', '«Хладомет»', '«Хладорез»', 'IWI Tavor X95', 'L96A1', 'LR-300',
+                     'McMillan CS5', 'MG 3', 'Mk 14 EBR', 'ОЦ-14М «Разряд»', 'ОЦ-33 «Пернач»', 'ОТЛ-03 «Карбач»',
+                     'ПКП «Печенег»', 'ППК-20', 'ПТРД-М', 'QBZ-191 «Буревестник»', 'РПГ-7', 'РПЛ-20', 'РШ-12',
+                     'SA-58 CTC', 'Scorpion EVO III', 'SIG Sauer P320', 'TDI KRISS Vector', 'Винтовка Гаусса', 'WA2000',
+                     'Поношенный «Туз»', 'Экзоскелет «Туз»', 'Бронескелет «Альбатрос-Штурмовик»',
+                     'Экзокостюм «Антарес»', 'Поношенный АО-6 «Кочевник»', 'УКАЗ АО-6 «Кочевник»',
+                     'Сверхтяжелый бронекостюм «Апостол»', 'Бронекостюм «Авангард»', 'Поношенный «Зверобой»',
+                     'Экзоброня «Зверобой»', 'Комбинезон «Ригель»', 'Поношенный «Центурион»', 'Бронескелет «Центурион»',
+                     'Сверхтяжелый бронекостюм «Вождь»', 'Сверхтяжелый бронекостюм «Гранит»', 'Экзоскелет «Гектор»',
+                     'Экзокостюм «Гончий»', 'Экзоброня JD ZIVCAS 2A', 'КИМ-Х «АТЛАС»', 'Бронекостюм «КЗ-4»',
+                     'Поношенный «Мул»', 'Экзоскелет «Мул»', 'Комбинезон «Пересвет»', 'Бронекостюм «Каратель»',
+                     'Сверхтяжелый бронекостюм «Рейтар»', 'Поношенный комбинезон «Сатурн»', 'Комбинезон «Сатурн»',
+                     'SBA TANK', 'Бронекостюм «Скиф-4»', 'Бронекостюм «Скиф-4б»', 'Бронекостюм «Скиф-5»',
+                     'Бронекостюм ZIVCAS M2-C']
+
+goods_master_icon = ['A-545', 'AA-12', 'AK-15', 'AK-308', 'AM-17', 'AMB-17', 'AS-12', 'BCC-M', 'BCCK', 'BCK-94',
+                     'CBD-M', 'CP-380', 'CP-3M', 'Desert_1', 'DSA-58', 'FAMAZ', 'FN_4', 'FN_5', 'FN_6', 'Glock_2',
+                     'HK417', 'FN_7', 'HK_8', 'HK_9', 'Hladomet', 'Hladorez', 'IWI', 'L96A1', 'LR-300', 'McMillan',
+                     'MG', 'Mk', 'OC-14M_1', 'OC-33', 'OTL-03', 'PKP_1', 'PPK-20', 'PTRD-M', 'QBZ-191', 'RPG-7',
+                     'RPL-20', 'RS-12', 'SA-58', 'Scorpion', 'SIG_4', 'TDI', 'Vintovka', 'WA2000', 'ace-old', 'ace',
+                     'albatross-stormtrooper', 'antares', 'ao-6-old', 'ao-6', 'apostle', 'avant-garde', 'beast-old',
+                     'beast', 'bolt', 'centurion-old', 'centurion', 'chief', 'granite', 'hector', 'hound',
+                     'jd-zivcas-2a', 'kim-x', 'kz-4', 'mule-old', 'mule', 'peresvet', 'punisher', 'reitar',
+                     'saturn-old', 'saturn', 'sba-tank', 'skif-4', 'skif-4b', 'skif-5', 'zivcas']
 
 goods = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-919K', 'AEK-971', 'AH-94', 'AH-94M', 'AK-103', 'AK-105', 'AK-12',
          'AK-15', 'AK-203', 'AK-308', 'AK-74M', 'AKC-74', 'AKC-74Y', 'AKC', 'AKM', 'AKM_1', 'ALK-22', 'Alpine', 'AM-17',
@@ -250,8 +337,8 @@ goods = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-919K', 'AEK-971', 'AH-94', 'AH-94
 
 viv = ['viv_boral', 'viv_forest', 'viv_humans', 'viv_night', 'viv_pizdec', 'viv_pizdec2', 'viv_under']
 
-camp = [3, 8, 14, 16, 18, 19, 21, 22, 27, 53, 58, 57, 78, 87, 93, 98, 99, 101, 106, 104, 111, 116]
+camp = [3, 8, 14, 16, 18, 19, 21, 22, 27, 30, 53, 56, 57, 58, 78, 81, 87, 93, 98, 99, 101, 104, 106, 111, 116]
 
-base = [32, 69, 73]
+base = [32, 34, 38, 69, 73]
 
-boss = [30, 50, 52]
+boss = [50, 52]

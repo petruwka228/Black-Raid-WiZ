@@ -96,7 +96,7 @@ for i in range(1, 120):
         f.write('SoundFXForNonOwner=True\n')
         f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
         f.write('NotWorkFractions=Stalkers, Bandits, Soldiers, Duty, Freedom, Monolith, Mercenaries, Scientists,'
-                ' Shopot, Clearsky\n')
+                ' Shopot, Clearsky,boss\n')
         f.write('CountUnit1 = 0\n')
         f.write('CountUnit2 = 0\n')
         f.write('CountUnit3 = 0\n')

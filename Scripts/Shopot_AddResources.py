@@ -21,7 +21,7 @@ for i in zones:
     f.write('SoundFXForNonOwner=True\n')
     f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
     f.write('NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Mutants,'
-            'Clearsky\n')
+            'Clearsky,camp,base,boss\n')
     f.write(f'EventFlag=Flag-airdrop-{i}-0\n')  # ----
     f.write(f'EventFlagResult=Flag-Shopot-{i}-0-0\n')  # ----
     f.write('EventFlagStatusNeed=False\n')
@@ -46,8 +46,8 @@ for i in zones:
     f.write('SoundFXForNonOwner=True\n')
     f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
     f.write('NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Mutants,'
-            ' Clearsky\n')
-    f.write(f'EventFlag=Flag-airdrop-{i}-0\n')  # ----
+            ' Clearsky,camp,base,boss\n')
+    f.write(f'EventFlag=Flag-Shopot-{i}-1-0\n')  # ----
     f.write(f'EventFlagResult=Flag-Shopot-{i}-1-0\n')  # ----
     f.write('EventFlagStatusNeed=False\n')
     f.write('EventFlagStatusSet=True\n')
@@ -72,8 +72,8 @@ for i in zones:
     f.write('SoundFXForNonOwner=True\n')
     f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
     f.write('NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Mutants, '
-            'Clearsky\n')
-    f.write(f'EventFlag=Flag-airdrop-{i}-0\n')  # ----
+            'Clearsky,camp,base,boss\n')
+    f.write(f'EventFlag=Flag-Shopot-{i}-0-1\n')  # ----
     f.write(f'EventFlagResult=Flag-Shopot-{i}-0-1\n')  # ----
     f.write('EventFlagStatusNeed=False\n')
     f.write('EventFlagStatusSet=True\n')
@@ -97,8 +97,8 @@ for i in zones:
     f.write('SoundFXForNonOwner=True\n')
     f.write('SoundFXForNonOwnerFile=sfx\events\message.mp3\n')
     f.write('NotWorkFractions=Stalkers,Bandits,Soldiers,Duty,Freedom,Mercenaries,Monolith,Scientists,Mutants, '
-            'Clearsky\n')
-    f.write(f'EventFlag=Flag-airdrop-{i}-0\n')  # ----
+            'Clearsky,camp,base,boss\n')
+    f.write(f'EventFlag=Flag-Shopot-{i}-1-1\n')  # ----
     f.write(f'EventFlagResult=Flag-Shopot-{i}-1-1\n')  # ----
     f.write('EventFlagStatusNeed=False\n')
     f.write('EventFlagStatusSet=True\n')

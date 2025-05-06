@@ -1,6 +1,6 @@
 from dir import *
 import random
-q = [1, 6, 11, 16, 21]
+q = [11, 16, 21]
 b = -1
 f = open('Events_Story.ini', 'a', encoding='utf-8-sig')
 for i in q:

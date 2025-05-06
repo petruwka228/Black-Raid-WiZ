@@ -13,6 +13,9 @@ tr9 =[random.choice(goods_novice), random.choice(goods_skilled), random.choice(g
 tr10 =[random.choice(goods_novice), random.choice(goods_skilled), random.choice(goods_veteran), random.choice(goods_master)]
 tr11 =[random.choice(goods_novice), random.choice(goods_skilled), random.choice(goods_veteran), random.choice(goods_master)]
 tr12 =[random.choice(goods_novice), random.choice(goods_skilled), random.choice(goods_veteran), random.choice(goods_master)]
+tr13 =[random.choice(goods_novice), random.choice(goods_skilled), random.choice(goods_veteran), random.choice(goods_master)]
+tr14 =[random.choice(goods_novice), random.choice(goods_skilled), random.choice(goods_veteran), random.choice(goods_master)]
+tr15 =[random.choice(goods_novice), random.choice(goods_skilled), random.choice(goods_veteran), random.choice(goods_master)]
 
 f.write("""
 [Medic]
@@ -28,6 +31,9 @@ Trader9=True
 Trader10=True
 Trader11=True
 Trader12=True
+Trader13=True
+Trader14=True
+Trader15=True
 
 """)
 for i in goods:
@@ -44,6 +50,9 @@ Trader9={''.join([str(True) if i in tr9 else str(False)])}
 Trader10={''.join([str(True) if i in tr10 else str(False)])}
 Trader11={''.join([str(True) if i in tr11 else str(False)])}
 Trader12={''.join([str(True) if i in tr12 else str(False)])}
+Trader13={''.join([str(True) if i in tr12 else str(False)])}
+Trader14={''.join([str(True) if i in tr12 else str(False)])}
+Trader15={''.join([str(True) if i in tr12 else str(False)])}
 
 """)
 f.close()
