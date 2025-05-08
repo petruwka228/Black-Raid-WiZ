@@ -18,4 +18,5 @@
 🔗 [https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ru](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ru)
 
 Связь с автором:
+
 Discord: @xo4y_kpa6c6yprep
