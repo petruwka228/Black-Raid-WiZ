@@ -75,7 +75,8 @@ goods_airdrop_icon = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-971', 'AH-94M', 'AK-
                       'samson', 'skif-2m',
                       'snowstorm', 'spanner', 'suit', 'sunrise', 'tonga', 'uran', 'yorsh',
                       'bolshoy', 'sledak', 'kovcheg', 'missioner', 'hramovnik', 'ronin', 'navigator', 'prometey',
-                      'orion', 'ACM', 'AK-9M', 'AKC-9', 'A-762', 'AEK-973', 'OC-14-A1']
+                      'orion', 'ACM', 'AK-9M', 'AKC-9', 'A-762', 'AEK-973', 'OC-14-A1', 'PSA', 'PSA_1', 'PSA_2',
+                      'Smesson', 'Highest', '6P62']
 
 goods_airdrop_name = ['9А-91', 'А-545', 'AA-12', 'АС «Вал»', 'АЕК-971', 'АН-94М «Абакан»', 'АК-103', 'АК-12', 'АК-15',
                       'АК-203', 'АК-308', 'АКМ «Тишина»', 'АЛК-22 «Стрекоза»', 'Alpine TPG-1', 'АМ-17', 'АМБ-17',
@@ -124,7 +125,8 @@ goods_airdrop_name = ['9А-91', 'А-545', 'AA-12', 'АС «Вал»', 'АЕК-97
                       '«Большой Билл»', 'Экзоброня «Следак»', 'Комбинезон «Ковчег»', 'Экзокостюм «Миссионер»',
                       'Бронекостюм «Храмовник»', 'Бронекостюм «Ронин»', 'Комбинезон «Навигатор»',
                       'Бронекостюм «Прометей»', 'Комбинезон «Орион»', 'АСМ «Сервал»', 'АК-9М «Койот»',
-                      'АКС-9 «Горностай»', 'А-762 «Арес»', 'АЕК-973 «Марс»', 'ОЦ-14-А1 «Тор»']
+                      'АКС-9 «Горностай»', 'А-762 «Арес»', 'АЕК-973 «Марс»', 'ОЦ-14-А1 «Тор»', 'PSA 20 STR «Пульс»',
+                      'PSA PA 10 «Ритм»', 'PSA PA 10 «Такт»', '«Смессон»', '«Highest power»', '6П62 «Малыш»']
 
 goods_airdrop_ID = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK-15', 'AK-203',
                     'AK-308', 'AKM_1', 'ALK-22', 'Alpine', 'AM-17', 'AMB-17', 'AS-12', 'BCC-M', 'BCC', 'BCCK', 'BCK-94',
@@ -152,7 +154,7 @@ goods_airdrop_ID = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-971', 'AH-94M', 'AK-10
                     'V-snowstorm', 'V-spanner', 'V-suit', 'V-sunrise',
                     'V-tonga', 'V-uran', 'V-yorsh', 'bolshoy', 'M-sledak', 'M-kovcheg', 'M-missioner', 'M-hramovnik',
                     'M-ronin', 'M-navigator', 'M-prometey', 'M-orion', 'ACM', 'AK-9M', 'AKC-9', 'A-762', 'AEK-973',
-                    'OC-14-A1']
+                    'OC-14-A1', 'PSA', 'PSA_1', 'PSA_2', 'Smesson', 'Highest', '6P62']
 
 groups = ['Stalkers', 'Bandits', 'Soldiers', 'Duty', 'Freedom', 'Mercenaries', 'Monolith', 'Scientists', 'Shopot',
           'Clearsky']
@@ -204,7 +206,7 @@ goods_veteran = ['9A-91', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK-203'
                  'V-huntsman', 'V-kim-122', 'V-kz-3b', 'V-legionnaire', 'V-magnet', 'V-misty-hunter', 'V-osh',
                  'V-ploughman', 'V-ratcatcher', 'V-reaper', 'V-reporter', 'V-samson', 'V-skif-2m', 'V-snowstorm',
                  'V-spanner', 'V-suit', 'V-sunrise', 'V-tonga', 'V-uran', 'V-yorsh', 'AK-9M', 'AKC-9', 'AEK-973',
-                 'OC-14-A1']
+                 'OC-14-A1', 'PSA_1', 'PSA_2', 'Smesson', 'Highest']
 
 goods_veteran_name = ['9А-91', 'АС «Вал»', 'АЕК-971', 'АН-94М «Абакан»', 'АК-103', 'АК-12', 'АК-203', 'АКМ «Тишина»',
                       'АЛК-22 «Стрекоза»', 'Alpine TPG-1', 'ВСС «Винторез»', 'Beretta 92FS', 'Beretta 93R',
@@ -229,7 +231,8 @@ goods_veteran_name = ['9А-91', 'АС «Вал»', 'АЕК-971', 'АН-94М «А
                       'Экзоскелет «Самсон»', 'Бронекостюм «Скиф-2м»', 'Тяжелый бронекостюм «Идущий в метели»',
                       'УКАЗ «Спаннер»', 'Поношенная «Масть»', 'Экзоскелет «Масть»', 'Tяжелый бронекостюм «Восход»',
                       'Комбинезон «Тонга»', 'Комбинезон «Уран»', 'Защитный бронекостюм «Йорш»', 'АК-9М «Койот»',
-                      'АКС-9 «Горностай»', 'АЕК-973 «Марс»', 'ОЦ-14-А1 «Тор»']
+                      'АКС-9 «Горностай»', 'АЕК-973 «Марс»', 'ОЦ-14-А1 «Тор»', 'PSA PA 10 «Ритм»', 'PSA PA 10 «Такт»',
+                      '«Смессон»', '«Highest power»']
 
 goods_veteran_icon = ['9A-91', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK-203', 'AKM_1', 'ALK-22', 'Alpine',
                       'BCC', 'Beretta', 'Beretta_1', 'Beretta_2', 'Caiga-12K', 'CB-98', 'CBD-C', 'CBD', 'CBY',
@@ -244,7 +247,7 @@ goods_veteran_icon = ['9A-91', 'AC', 'AEK-971', 'AH-94M', 'AK-103', 'AK-12', 'AK
                       'ghost-hunter', 'grenadier', 'huntsman', 'kim-122', 'kz-3b', 'legionnaire', 'magnet',
                       'misty-hunter', 'osh', 'ploughman', 'ratcatcher', 'reaper', 'reporter', 'samson', 'skif-2m',
                       'snowstorm', 'spanner', 'suit', 'sunrise', 'tonga', 'uran', 'yorsh', 'AK-9M', 'AKC-9', 'AEK-973',
-                      'OC-14-A1']
+                      'OC-14-A1', 'PSA_1', 'PSA_2', 'Smesson', 'Highest']
 
 goods_master = ['A-545', 'AA-12', 'AK-15', 'AK-308', 'AM-17', 'AMB-17', 'AS-12', 'BCC-M', 'BCCK', 'BCK-94', 'CBD-M',
                 'CP-380', 'CP-3M', 'Desert_1', 'DSA-58', 'FAMAZ', 'FN_4', 'FN_5', 'FN_6', 'Glock_2', 'HK417', 'FN_7',
@@ -255,7 +258,7 @@ goods_master = ['A-545', 'AA-12', 'AK-15', 'AK-308', 'AM-17', 'AMB-17', 'AS-12',
                 'M-hector', 'M-hound', 'M-jd-zivcas-2a', 'M-kim-x', 'M-kz-4', 'M-mule', 'M-peresvet', 'M-punisher',
                 'M-reitar', 'M-saturn', 'M-sba-tank', 'M-skif-4', 'M-skif-5', 'M-zivcas', 'bolshoy', 'M-sledak',
                 'M-kovcheg', 'M-missioner', 'M-hramovnik', 'M-ronin', 'M-navigator', 'M-prometey', 'M-orion', 'ACM',
-                'A-762']
+                'A-762', 'PSA', '6P62']
 
 goods_master_name = ['А-545', 'AA-12', 'АК-15', 'АК-308', 'АМ-17', 'АМБ-17', 'АШ-12', 'ВСС-М «Винторез»',
                      'ВССК «Выхлоп»', 'ВСК-94', 'СВД-М', 'CR-380', 'СР-3М', 'Desert Eagle Mark XIX', 'DSA-58',
@@ -274,7 +277,7 @@ goods_master_name = ['А-545', 'AA-12', 'АК-15', 'АК-308', 'АМ-17', 'АМ�
                      'Бронекостюм «Скиф-5»', 'Бронекостюм ZIVCAS M2-C', '«Большой Билл»', 'Экзоброня «Следак»',
                      'Комбинезон «Ковчег»', 'Экзокостюм «Миссионер»', 'Бронекостюм «Храмовник»', 'Бронекостюм «Ронин»',
                      'Комбинезон «Навигатор»', 'Бронекостюм «Прометей»', 'Комбинезон «Орион»', 'АСМ «Сервал»',
-                     'А-762 «Арес»']
+                     'А-762 «Арес»', 'PSA 20 STR «Пульс»', '6П62 «Малыш»']
 
 goods_master_icon = ['A-545', 'AA-12', 'AK-15', 'AK-308', 'AM-17', 'AMB-17', 'AS-12', 'BCC-M', 'BCCK', 'BCK-94',
                      'CBD-M', 'CP-380', 'CP-3M', 'Desert_1', 'DSA-58', 'FAMAZ', 'FN_4', 'FN_5', 'FN_6', 'Glock_2',
@@ -285,7 +288,7 @@ goods_master_icon = ['A-545', 'AA-12', 'AK-15', 'AK-308', 'AM-17', 'AMB-17', 'AS
                      'centurion', 'chief', 'granite', 'hector', 'hound', 'jd-zivcas-2a', 'kim-x', 'kz-4', 'mule',
                      'peresvet', 'punisher', 'reitar', 'saturn', 'sba-tank', 'skif-4', 'skif-5', 'zivcas', 'bolshoy',
                      'sledak', 'kovcheg', 'missioner', 'hramovnik', 'ronin', 'navigator', 'prometey', 'orion', 'ACM',
-                     'A-762']
+                     'A-762', 'PSA', '6P62']
 
 goods = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-919K', 'AEK-971', 'AH-94', 'AH-94M', 'AK-103', 'AK-105', 'AK-12',
          'AK-15', 'AK-203', 'AK-308', 'AK-74M', 'AKC-74', 'AKC-74Y', 'AKC', 'AKM', 'AKM_1', 'ALK-22', 'Alpine', 'AM-17',
@@ -319,7 +322,7 @@ goods = ['9A-91', 'A-545', 'AA-12', 'AC', 'AEK-919K', 'AEK-971', 'AH-94', 'AH-94
          'V-ploughman', 'V-ratcatcher', 'V-reaper', 'V-reporter', 'V-samson', 'V-skif-2m', 'V-snowstorm', 'V-spanner',
          'V-suit', 'V-sunrise', 'V-tonga', 'V-uran', 'V-yorsh', 'bolshoy', 'M-Sledak', 'M-kovcheg', 'M-missioner',
          'M-hramovnik', 'M-ronin', 'M-navigator', 'M-prometey', 'M-orion', 'ACM', 'AK-9M' 'AKC-9', 'A-762', 'AEK-973',
-         'OC-14-A1']
+         'OC-14-A1', 'PSA', 'PSA_1', 'PSA_2', 'Smesson', 'Highest', '6P62']
 
 viv = ['viv_boral', 'viv_forest', 'viv_humans', 'viv_night', 'viv_pizdec', 'viv_pizdec2', 'viv_under']
 
@@ -329,4 +332,4 @@ base = [32, 34, 38, 69, 73]
 
 boss = [50, 52]
 
-print(300+510+510+1400-700)
+print(750+750+1700)
