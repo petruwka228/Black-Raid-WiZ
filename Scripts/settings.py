@@ -54,7 +54,7 @@ ActiveMutantScaleForMutantUnit3=50
 ActiveMutantScaleForMutantUnit4=75
 BasedChanceForSearchArts=1000
 BasedChanceOfDethForSearchArts=0
-ExcludedUpgrades=Upgrade-8, Upgrade-9, Upgrade-10, Upgrade-11, Upgrade-12, Upgrade-13, Upgrade-14, Upgrade-15, Upgrade-16, Upgrade-17, Upgrade-18, Upgrade-19, Upgrade-20, Upgrade-21, Upgrade-22, Upgrade-23, Upgrade-24
+ExcludedUpgrades=Upgrade-8, Upgrade-9, Upgrade-10, Upgrade-11, Upgrade-12, Upgrade-13, Upgrade-14, Upgrade-15, Upgrade-16, Upgrade-17, Upgrade-18, Upgrade-19, Upgrade-20, Upgrade-21, Upgrade-22, Upgrade-23, Upgrade-24, upgrade-25, upgrade-26, upgrade-27, upgrade-28, upgrade-29, upgrade-30, upgrade-31, upgrade-32, upgrade-33, upgrade-34, upgrade-35, upgrade-36
 ExcludedBuildings=building1, building2, building3, building4, building5, building6, building7, building8, building9, building10, building11, building12
 BasedCostArmyMove=10
 BasedCostAtackType1=10
@@ -73,13 +73,15 @@ PartAutoArtsNameRule=7
 BrainControlChangeBasedCost=25
 BasedCostDestroyBuildComands=1
 BasedCostForUpgradeAmmo-Money=0
-BasedCostForUpgardeAmmo-Comands=0
+BasedCostForUpgradeAmmo-Comands=0
 BasedImprovementProductivityWorkshop=1
 BasedCostForLeaveZone=0
 OwnerFractionOfAbandonedZone=Mutants
 BasedCostChangeMainZone=100
 BasedPercentLostResources=0
 NoBaseNeeded=Mutants,Stalkers,Bandits,Soldiers,Duty,Freedom,Monolith,Mercenaries,Scientists,Shopot,Zombie,Clearsky,Camp,base,boss
+ScenarioLoseDescription=Условия поражения: Потеря всех бойцов за все команды/Не эвакуироваться с острова за бойцов Барона/Одному из отрядов удалось сбежать с острова за бойов Шёпота
+ScenarioVictoryDescription=Условия поебды: Эвакуироваться с острова за бойцов Барона/Уничтожить все отряды за бойцов Шёпота.
 
 ;; Условия победы и поражения
 End-Standart-Victory=False
