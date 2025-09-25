@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['C:\\github\\Black-Raid-WiZ\\Scripts\\main.py'],
+    ['C:\\Users\\Kpa6c\\OneDrive\\Документы\\GitHub\\Black-Raid-WiZ\\Scripts\\main.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -12,6 +12,7 @@ a = Analysis(
     runtime_hooks=[],
     excludes=[],
     noarchive=False,
+    optimize=0,
 )
 pyz = PYZ(a.pure)
 
