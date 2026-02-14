@@ -76,4 +76,5 @@ button.pack()
 # Запуск приложения
 root.mainloop()
 
-#pyinstaller --onefile --windowed --name randomizer C:\github\Black-Raid-WiZ\Scripts\main.py
+#python -m PyInstaller --onefile --windowed --name randomizer C:\Users\Kpa6c\OneDrive\Документы\GitHub\Black-Raid-WiZ\Scripts\main.py
+
